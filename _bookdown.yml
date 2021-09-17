@@ -1,0 +1,34 @@
+book_filename: "takrar"
+output_dir: docs
+language:
+  ui:
+    chapter_name: "Section "
+delete_merged_file: true
+rmd_files:
+  - index.Rmd
+  # - 01-intro.Rmd
+  # - 02-nahw.Rmd
+  # - 03-sarf.Rmd
+  # - 04-qasas.Rmd
+  # - 06-insha.Rmd
+  - 15-hiwar.Rmd
+  - 05-tarbiyya.Rmd
+  - 07-aqeedah.Rmd
+  - 14-history.Rmd
+  # - 12-fiqh.Rmd
+  # - 13-contemporary-fiqh.Rmd
+  # - 08-tajweed.Rmd
+  # - 09-seerah.Rmd
+  - 10-references.Rmd
+  - 11-appendix.Rmd
+  # html:
+  #   - index.Rmd
+  #   - 01-intro.Rmd
+  #   - 02-nahw.Rmd
+  #   - 03-sarf.Rmd
+  #   - 04-qasas.Rmd
+  #   - 06-insha.Rmd
+  #   - 05-tarbiyya.Rmd
+  #   - 07-aqeedah.Rmd
+  #   - 10-references.Rmd
+  #   - 11-appendix.Rmd

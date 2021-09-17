@@ -1,0 +1,16 @@
+# Introduction {#intro}
+
+## Seeking knowledge
+
+> **العلم بلا عملٍ**  
+> **كالشجرة بلا ثمرٍ**
+
+> Knowledge without action  
+> Is like the tree that doesn't bear fruit
+
+علم is composed of two things: knowledge *and* action.
+
+
+***
+
+This page last compiled on `r Sys.time()`.

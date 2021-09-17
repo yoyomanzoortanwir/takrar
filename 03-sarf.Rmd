@@ -1,0 +1,112 @@
+# صرف{#sarf}
+
+## فعل ماضي
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-i3dw{border-color:inherit;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-cmcg{background-color:#ffffff;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-x7w8{background-color:#ffffff;border-color:#000000;font-family:"Times New Roman", Times, serif !important;;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-ypq1{background-color:#ffffff;border-color:#000000;font-family:"Times New Roman", Times, serif !important;;
+  text-align:center;vertical-align:top}
+.tg .tg-exl0{border-color:inherit;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-cmcg">مذكر\مؤنث</th>
+    <th class="tg-cmcg">مؤنث</th>
+    <th class="tg-cmcg">مذكر</th>
+    <th class="tg-cmcg">مؤنث</th>
+    <th class="tg-cmcg">مذكر</th>
+    <th class="tg-ypq1"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-i3dw">فَعَلْتُ</td>
+    <td class="tg-i3dw">فَعَلْتِ</td>
+    <td class="tg-i3dw">فَعَلْتَ</td>
+    <td class="tg-i3dw">فَعَلَتْ</td>
+    <td class="tg-i3dw">فَعَلَ</td>
+    <td class="tg-x7w8">واحد\مفرد</td>
+  </tr>
+  <tr>
+    <td class="tg-exl0" rowspan="2">فَعَلْنَا</td>
+    <td class="tg-i3dw" colspan="2">فَعَلْتُمَا</td>
+    <td class="tg-i3dw">فَعَلَتَا</td>
+    <td class="tg-i3dw">فَعَلَا</td>
+    <td class="tg-x7w8">تثنية</td>
+  </tr>
+  <tr>
+    <td class="tg-i3dw">فَعَلْتُنَّ</td>
+    <td class="tg-i3dw">فَعَلْتُمْ</td>
+    <td class="tg-i3dw">فَعَلْنَ</td>
+    <td class="tg-i3dw">فَعَلُوا</td>
+    <td class="tg-x7w8">جمع</td>
+  </tr>
+</tbody>
+</table>
+
+## فعل مضارع
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-40sl{background-color:#ffffff;border-color:#000000;font-family:"Times New Roman", Times, serif !important;;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-i3dw{border-color:inherit;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-ryy9{border-color:inherit;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-cmcg{background-color:#ffffff;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-weight:bold;
+  text-align:center;vertical-align:top}
+.tg .tg-ypq1{background-color:#ffffff;border-color:#000000;font-family:"Times New Roman", Times, serif !important;;
+  text-align:center;vertical-align:top}
+.tg .tg-exl0{border-color:inherit;font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-cmcg">مذكر\مؤنث</th>
+    <th class="tg-cmcg">مؤنث</th>
+    <th class="tg-cmcg">مذكر</th>
+    <th class="tg-cmcg">مؤنث</th>
+    <th class="tg-cmcg">مذكر</th>
+    <th class="tg-ypq1"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-i3dw">أَفْعَلُ</td>
+    <td class="tg-ryy9">تَفْعَلِينَ</td>
+    <td class="tg-i3dw" colspan="2">تَفْعَلُ</td>
+    <td class="tg-i3dw">يَفْعَلُ</td>
+    <td class="tg-40sl">واحد\مفرد</td>
+  </tr>
+  <tr>
+    <td class="tg-exl0" rowspan="2">نَفْعَلُ</td>
+    <td class="tg-ryy9" colspan="3">تَفْعَلَانِ</td>
+    <td class="tg-i3dw">يَفْعَلَانِ</td>
+    <td class="tg-40sl">تثنية</td>
+  </tr>
+  <tr>
+    <td class="tg-ryy9">تَفْعَلْنَ</td>
+    <td class="tg-i3dw">تَفْعَلُونَ</td>
+    <td class="tg-ryy9">يَفْعَلْنَ</td>
+    <td class="tg-i3dw">يَفْعَلُونَ</td>
+    <td class="tg-40sl">جمع</td>
+  </tr>
+</tbody>
+</table>
+
+***
+
+This page last compiled on `r Sys.time()`.

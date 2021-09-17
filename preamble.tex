@@ -1,0 +1,18 @@
+\usepackage{booktabs}
+\usepackage{amsthm}
+\usepackage{cancel}
+% \usepackage{fontspec}
+% \usepackage{polyglossia}
+% \setmainlanguage{english}
+% \setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script = Arabic]{Amiri Quran} % Replace 'Simplified Arabic' with a font from your system
+\usepackage{arabtex}
+\usepackage{utf8}
+\usepackage{multirow}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\setcode{utf8}

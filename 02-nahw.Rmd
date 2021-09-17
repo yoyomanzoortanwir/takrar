@@ -1,0 +1,100 @@
+# (PART) دروس العربي {-}
+
+# نحو{#nahw}
+
+نحو
+
+
+```{r echo=FALSE}
+# library(DiagrammeR)
+# graph_kalimat <- create_graph(directed = F) %>% 
+#   add_node(label = "إسم") %>% add_node(label = "معرفة/نكرة") %>% 
+#   add_node(label = "مذكر/مؤنث") %>% add_node(label = "رقم") %>% 
+#   add_edge(from = 1, to = 2) %>% add_edge(from = 1, to = 3) %>% add_edge(from = 1, to = 4) %>% 
+#   add_node(label = "فعل") %>% 
+#   add_node(label = "ماضي/مضارع\nامر/نهي") %>% add_node(label = "معروف/مجهول") %>% 
+#   add_edge(from = 5, to = 6) %>% add_edge(from = 5, to = 7) %>% 
+#   add_node(label = "حرف") %>% 
+#   add_node(label = "كلمة/مفرد") %>% 
+#   add_edge(from = 1, to = 9) %>% add_edge(from = 5, to = 9) %>% add_edge(from = 8, to = 9) %>% 
+#   add_node(label = "تام") %>% add_node(label = "ناقص") %>% add_node(label = "جملة/مركب") %>% 
+#   add_edge(from = 10, to = 12) %>% add_edge(from = 11, to = 12) %>% 
+#   add_node(label = "موضوع") %>% add_node(label = "مهمل") %>% add_node(label = "لفظ") %>% 
+#   add_edge(from = 12, to = 13) %>% add_edge(from = 9, to = 13) %>% 
+#   add_edge(from = 13, to = 15) %>% add_edge(from = 14, to = 15) %>% 
+#   set_node_attrs(node_attr = "font", values = "Amiri Quran")
+```
+
+Arabic words can be classified starting from the vocalization of sounds (Figure \@ref(fig:nahw-chart)). A sound is called *لفظ*. A meaningless sound, such as the vocalizations of a baby, are called *مهمل*. A sound with meaning is called *موضوغ*. This can be further classified into *جملة* (sentence) or *مركب* (compound word), which can subsequently be classified into *مفيد* (complete) or *غير مفيد* (incomplete). موضوع is also classified into *كلمة*, or word.  
+إفسام الإسم:
+
+- **جامد** An إسم that does not come from a 3-letter root word. *lit.* solid. Examples: شمس, فرس
+- **مصدر** The root word. 
+- **مشتق** A derived word
+
+```{r nahw-chart, echo=FALSE, fig.cap="Chart of Arabic word taxonomy"}
+library(DiagrammeR)
+grViz("digraph flowchart {
+      # node definitions with substituted label text
+      node [fontname = Arial, shape = rectangle]        
+      tab1 [label = '@@1']
+      tab2 [label = '@@2']
+      tab3 [label = '@@3']
+      tab4 [label = '@@4']
+      tab5 [label = '@@5']
+      tab6 [label = '@@6']
+      tab7 [label = '@@7']
+      tab8 [label = '@@8']
+      tab9 [label = '@@9']
+      tab10 [label = '@@10']
+      tab11 [label = '@@11']
+      tab12 [label = '@@12']
+      tab13 [label = '@@13']
+      tab14 [label = '@@14']
+      tab15 [label = '@@15']
+      tab16 [label = '@@16']
+      tab17 [label = '@@17']
+      tab18 [label = '@@18']
+      tab19 [label = '@@19']
+
+      # edge definitions with the node IDs
+      tab1 -> tab2;
+      tab1 -> tab3 -> tab4 -> tab5;
+      tab4 -> tab6;
+      tab3 -> tab7 -> tab15 -> tab14;
+      tab15 -> tab13;
+      tab15 -> tab12;
+      tab7 -> tab11 -> tab10;
+      tab11 -> tab9;
+      tab7 -> tab8;
+      tab6 -> tab16;
+      tab6 -> tab17;
+      tab15 -> tab18;
+      tab8 -> tab19;
+      }
+
+      [1]: 'لفظ'
+      [2]: 'مهمل'
+      [3]: 'موضوع'
+      [4]: 'جملة/مركب'
+      [5]: 'غير مفيد'
+      [6]: 'مفيد'
+      [7]: 'كلمة/مفرد'
+      [8]: 'حرف'
+      [9]: 'معروف/مجهول'
+      [10]: 'ماضي/مضارع/امر/نهي'
+      [11]: 'فعل'
+      [12]: 'رقم'
+      [13]: 'مذكر/مؤنث'
+      [14]: 'معرفة/نكرة'
+      [15]: 'إسم'
+      [16]: 'خبرية'
+      [17]: 'إنشائية'
+      [18]: 'جامد/مصدر/مشتق'
+      [19]: 'عامل/غير عامل'
+      ")
+```
+
+***
+
+This page last compiled on `r Sys.time()`.

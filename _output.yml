@@ -1,0 +1,32 @@
+bookdown::gitbook:
+  highlight: tango
+  css: ["style.css","style2.css"]
+  toc_depth: 4
+  config:
+    fontsettings:
+      theme: sepia
+    toc:
+      collapse: section
+      scroll_highlight: true
+      before: |
+        <li><a href="./">Takrar</a></li>
+      after: |
+        <li><a href="https://github.com/yoyomanzoor/takrar" target="blank"><small>View GitHub repository (requires permission)</small></a></li>
+    edit:
+      link: https://github.com/yoyomanzoor/takrar/edit/master/%s
+      text: "Suggest an edit"
+    download: ["rmd"]
+    # download: ["pdf", "epub", "rmd"]
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+      all: no
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
+# bookdown::bs4_book: default

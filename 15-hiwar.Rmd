@@ -1,0 +1,301 @@
+# (PART) دروس العربي {-}
+
+# حوار{#conversation}
+
+- [jobs](#jobs)
+
+## الأسماء الأعمال{#jobs}
+
+<!-- https://docs.google.com/spreadsheets/d/1JWru1uMgzjoVNyJL8Mqw2sXvRjtlB_qyst9rVU9gAVo/edit#gid=0 -->
+
+\begin{table}[]
+\begin{tabular}{lr}
+\multicolumn{1}{c}{\textbf{معنى}} & \multicolumn{1}{c}{\textbf{كلمة}} \\
+\multicolumn{2}{c}{\textbf{islam/religion}}                           \\
+speaker of the Masjid             & خطيب المسجد                       \\
+Imam                              & امام                              \\
+Muhaddith                         & محدّث                             \\
+\multicolumn{2}{c}{\textbf{healthcare}}                               \\
+doctor                            & طَبِيبٌ                           \\
+surgeon                           & حرّاح                             \\
+nurse                             & مُمَرِّضٌ                         \\
+dentist                           & دكتور الاسنان                     \\
+pharmacist                        & صَيْدَلِي                         \\
+\multicolumn{2}{c}{\textbf{government/law}}                           \\
+judge                             & قاضي                              \\
+lawyer                            & مُحَامِيٌ                         \\
+police officer                    & شُرْطِيٌّ                         \\
+king                              & مالك                              \\
+\multicolumn{2}{c}{\textbf{humanities}}                               \\
+writer                            & كاتب                              \\ \hline
+\multicolumn{1}{|l|}{poet}        & \multicolumn{1}{r|}{شاعر}         \\ \hline
+\multicolumn{1}{|l|}{actor}       & \multicolumn{1}{r|}{ممثل}         \\ \hline
+\multicolumn{1}{|l|}{journalist}  & \multicolumn{1}{r|}{صحافي}        \\ \hline
+artist                            & فنان                              \\
+painter                           & رسّام                             \\
+dancer                            & راقِص                             \\
+\multicolumn{2}{c}{\textbf{engineering/aerospace}}                    \\
+engineer                          & مهندس                             \\
+pilot                             & طيار                              \\
+electrician                       & كهربائي                           \\
+plumber                           & سبَّاك                            \\
+\multicolumn{2}{c}{\textbf{school/education}}                         \\
+principal/manager                 & مُدِيرٌ                           \\
+teacher                           & مدرّس                             \\
+student                           & طالب                              \\
+chemist                           & كيميائي                           \\
+\multicolumn{2}{c}{\textbf{business}}                                 \\
+trader                            & تاجر                              \\
+salesman                          & بائع                              \\
+server (at a restaurant)          & خادم المطعم                       \\
+\multicolumn{2}{c}{\textbf{farming/agriculture}}                      \\
+farmer                            & مُزَارِعٌ                         \\
+\multicolumn{2}{c}{\textbf{skilled professions}}                      \\
+bread maker/baker                 & جَبَّازٌ                          \\
+shoemaker                         & إسكافي                            \\
+perfumer                          & عطار                              \\
+barber                            & حلّاق                             \\
+\multicolumn{2}{c}{\textbf{athlete}}                                  \\
+scuba diver                       & غطاس                              \\
+\multicolumn{2}{c}{\textbf{wartime}}                                  \\
+soldier                           & جُنْري                            \\
+spy                               & مخبر                              \\
+\multicolumn{2}{c}{\textbf{miscellaneous}}                            \\
+secretary                         & سِكْرِتِيرِيٌ                     \\
+unemployed                        & عاطل                              \\
+\multicolumn{2}{c}{\textbf{haram}}                                    \\
+magician                          & ساحر                             
+\end{tabular}
+\end{table}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-bobw{font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-our0{border-color:inherit;text-align:right;vertical-align:bottom}
+.tg .tg-ybwq{border-color:inherit;text-align:right;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-jjut{text-align:right;vertical-align:top}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fll5{border-color:inherit;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+.tg .tg-5n1h{text-align:right;vertical-align:bottom}
+</style>
+<table class="tg" style="width:50%">
+<thead>
+  <tr>
+    <th class="tg-amwm">معنى</th>
+    <th class="tg-amwm">كلمة</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">islam/religion</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">speaker of the Masjid</td>
+    <td class="tg-jjut">خطيب المسجد</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Imam</td>
+    <td class="tg-jjut">امام</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Muhaddith</td>
+    <td class="tg-jjut">محدّث</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">healthcare</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">doctor</td>
+    <td class="tg-jjut">طَبِيبٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">surgeon</td>
+    <td class="tg-our0">حرّاح</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">nurse</td>
+    <td class="tg-our0">مُمَرِّضٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">dentist</td>
+    <td class="tg-ybwq">دكتور الاسنان</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">pharmacist</td>
+    <td class="tg-ybwq">صَيْدَلِي</td>
+  </tr>
+  <tr>
+    <td class="tg-fll5" colspan="2"><span style="font-weight:bold">government/law</span></td>
+  </tr>
+  <tr>
+    <td class="tg-za14">judge</td>
+    <td class="tg-our0">قاضي</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">lawyer</td>
+    <td class="tg-our0">مُحَامِيٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">police officer</td>
+    <td class="tg-our0">شُرْطِيٌّ</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">king</td>
+    <td class="tg-ybwq">مالك</td>
+  </tr>
+  <tr>
+    <td class="tg-fll5" colspan="2"><span style="font-weight:bold">humanities</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">writer</td>
+    <td class="tg-ybwq">كاتب</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">poet</td>
+    <td class="tg-ybwq">شاعر</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">actor</td>
+    <td class="tg-our0">ممثل</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">journalist</td>
+    <td class="tg-our0">صحافي</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">artist</td>
+    <td class="tg-ybwq">فنان</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">painter</td>
+    <td class="tg-ybwq">رسّام</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">dancer</td>
+    <td class="tg-ybwq">راقِص</td>
+  </tr>
+  <tr>
+    <td class="tg-fll5" colspan="2"><span style="font-weight:bold">engineering/aerospace</span></td>
+  </tr>
+  <tr>
+    <td class="tg-za14">engineer</td>
+    <td class="tg-our0">مهندس</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">pilot</td>
+    <td class="tg-5n1h">طيار</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">electrician</td>
+    <td class="tg-jjut">كهربائي</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">plumber</td>
+    <td class="tg-jjut">سبَّاك</td>
+  </tr>
+  <tr>
+    <td class="tg-bobw" colspan="2"><span style="font-weight:bold">school/education</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">principal/manager</td>
+    <td class="tg-5n1h">مُدِيرٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">teacher</td>
+    <td class="tg-5n1h">مدرّس</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">student</td>
+    <td class="tg-5n1h">طالب</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">chemist</td>
+    <td class="tg-5n1h">كيميائي</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">business</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">trader</td>
+    <td class="tg-jjut">تاجر</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">salesman</td>
+    <td class="tg-jjut">بائع</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">server (at a restaurant)</td>
+    <td class="tg-jjut">خادم المطعم</td>
+  </tr>
+  <tr>
+    <td class="tg-bobw" colspan="2"><span style="font-weight:bold">farming/agriculture</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">farmer</td>
+    <td class="tg-jjut">مُزَارِعٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">skilled professions</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">bread maker/baker</td>
+    <td class="tg-5n1h">جَبَّازٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">shoemaker</td>
+    <td class="tg-jjut">إسكافي</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">perfumer</td>
+    <td class="tg-jjut">عطار</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">barber</td>
+    <td class="tg-5n1h">حلّاق</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">athlete</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">scuba diver</td>
+    <td class="tg-jjut">غطاس</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">wartime</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">soldier</td>
+    <td class="tg-5n1h">جُنْري</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">spy</td>
+    <td class="tg-jjut">مخبر</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm" colspan="2"><span style="font-weight:bold">miscellaneous</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">secretary</td>
+    <td class="tg-jjut">سِكْرِتِيرِيٌ</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">unemployed</td>
+    <td class="tg-jjut">عاطل</td>
+  </tr>
+  <tr>
+    <td class="tg-bobw" colspan="2"><span style="font-weight:bold">haram</span></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">magician</td>
+    <td class="tg-5n1h">ساحر</td>
+  </tr>
+</tbody>
+</table>

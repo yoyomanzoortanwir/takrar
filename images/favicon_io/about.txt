@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Scheherazade
+- Font Author: Copyright (c) 1994-2015 SIL International. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/scheherazade/v20/YA9Ur0yF4ETZN60keViq1kQgt5OohvbJ9A.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)

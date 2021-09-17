@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Scheherazade|Changa');
+/*body{
+  font-family: Helvetica;
+  font-size: 12pt;
+}*/
+/* Headers */
+/*h1,h2,h3,h4,h5,h6{
+  font-size: 24pt;
+}*/
+.r{
+  font-size: 12px;
+}
+pre {
+  font-size: 10px
+}
+.book.font-family-0 {font-family: Changa, serif;}
+.book.font-family-1 {font-family: Scheherazade, "Helvetica Neue", Helvetica, Arial, sans-serif;}
