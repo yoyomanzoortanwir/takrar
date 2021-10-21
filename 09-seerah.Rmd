@@ -1,3 +1,197 @@
 # سيرة{#seerah}
 
+## اهل الرسول ﷺ
+
+```{r prophet family, echo=FALSE, fig.cap="Rasulullah ﷺ family"}
+# library(kinship2)
+# df <- data.frame(id=)
+```
+
+## Chapter 7
+
+### The beginning of Islam amongst the Ansar
+
+Rasulullah ﷺ met with the people of Khazraj from Yathrib at 'Aqabah. When he shared some ayaat of the Quran with them, they exclaimed that this was the messenger prophesized to them by the Jews of Yathrib. They accepted Islam and returned to their homes to spread the message.
+
+### First pledge of 'Aqabah
+
+| ![aqabah](https://user-images.githubusercontent.com/90349598/134719924-ed55d150-9ada-4022-8757-8cdb57971fc9.png) |
+|:--:|
+| <b>Location of the pledge of 'Aqabah, now the location of a commemorative masjid</b>|
+
+The next year, 12 men from the Ansar met Rasulullah ﷺ at 'Aqabah. They took a pledge:
+
+- not to steal
+- not to fornicate
+- not to kill their children
+- to obey Rasulullah ﷺ in Haqq
+- to associate nothing with Allah ﷻ
+
+Mus'ab ibn Umayrؓ was sent back with them to teach the Qur'an and spread Islam.
+
+#### The reason for the Ansar's acceptance of Islam
+
+<img src="https://user-images.githubusercontent.com/90349598/134721146-959faa8d-a8ac-47f3-ac06-577f68c42770.png"
+     alt="madinah" height="20%"/>
+
+The acceptance of Islam by the Aws and Khazraj in Yathrib was a huge milestone — the tribes of Makkah and Taif had rejected the message Rasulullah ﷺ brought, and the Aws and Khazraj became the first tribes to accept.
+
+1. The people of Aws and Khazraj were more soft-hearted than their counterparts elsewhere in Arabia
+
+Unlike the people of Makkah, their tribes were free from the intolerant, aggressive, and ignorant perspectives of the Quraysh and those in Makkah. Rasulullah ﷺ himself has said, "The people of Yemen have come to you. They have the most tender manners and gentlest hearts." In the Quran, Allah ﷻ says:
+
+| ![quranalhashr](https://user-images.githubusercontent.com/90349598/134722489-478961bd-9a17-44fc-a6f0-ecce0e8af669.png) |
+|:--:|
+| <b>Al-Hashr ayah 9</b>|
+
+2. Continuous war led to exhaustion and acceptance
+
+Aws and Khazraj had been battling against each other and against the Jews for a long time. They were tired of war and desired peace. Just 5 years before Hijra, they had fought a battle of Bu'ath, and were exhausted and weary.
+
+3. They were neighbors to the Jews.
+
+The Quraysh were far from revelation. They were deep into shirk and avoided the messages from Christians and Jews. The Aws and Khazraj, however, were near Jews who maintained some level of connection with their heritage. The Jews were in Madinah awaiting to find their prophesized prophet. Thus, these tribes were not foreign to the idea of revelation and scripture.
+
+| ![2:89](https://user-images.githubusercontent.com/90349598/134723288-16936501-aec7-4387-b3c5-6490c94cdb81.png) |
+|:--:|
+| <b>Al-Baqarah ayah 89</b>|
+
+### Strategic importance of Madinah
+
+| ![madinah_terrain](https://user-images.githubusercontent.com/90349598/134723785-2d7c8627-4807-4d20-8081-483d14de8650.png) |
+|:--:|
+| <b>Madinah has natural terrain protection</b>|
+
+The western side of Madinah is walled off by mountains, while the east and south had foresty plantations. The only exposed side of Madinah was the north.
+
+The Aws and Khazraj that resided in Yathrib were fierce, bold, and free. They lived alone and unmanaged for generations, and their skill in riding animals symbolized their free spritedness. They also had some blood ties to the Quraysh and Rasulullah ﷺ, as Abd' al-Muttalib's mother was from Banu'Adi ibn an-Najjar, a tribe in Yathrib.  
+The Aws and Khazrah had, however, historically been opposed to the Quraysh since they traced their geneology to Qahtan, while the Quraysh are from Adnan. Thus, the acceptance of both these tribes as _Ansar_ and the Makkans as _Muhajireen_ meant the resolution of many years of quarrel.
+
+In summary, Madinah as the place of emigration was an important military and cultural advancement.
+
+### Expansion of Islam in Madinah
+
+Islam spread like wildfire in Madinah through Mus'ab ibn 'Umayr. Of those that converted,
+
+- Sa'd ibn Mu'adh
+- Usayd ibn Hudayr, the leader of Banu Abd al-Ashhal, a clan in Aws
+
+Through Usayd, Banu Abd al-Ashhal accepted Islam.
+
+### Second pledge of 'Aqabah
+
+The next year at the time of pilgrimage, 73 Ansar (including 2 women) came to visit Rasulullah ﷺ again at 'Aqabah. Rasulullah ﷺ was accompanied by his uncle, 'Abbas. Again, the people of Madinah took allegiance with Rasulullah ﷺ, but they requested that he leaves Makkah and comes to them.
+
+### Permission to migrate to Madinah
+
+Rasulullah ﷺ tells the people of Makkah to migrate to Madinah, but he himself remains in Makkah as he was not yet given permission to migrate. The Quraysh, of course, were not happy with this. They tried to stop the Muslims from leaving, since not only did these kuffar reject Islam they were so blinded by their ignorance they wished to stop others from hearing it lest they accept it. Perhaps it was out of arrogance, since they knew it was the Truth yet they refused to accept it.
+
+Of the Muslims that migrated, many had to leave behind family, such as Abu Salamah, and wealth, such as Suhayb. Those who left were:
+
+- Umar
+- Talhah
+- Hamzah
+- Zayd ibn Harithah
+- Abd ar-Rahman ibn Awf
+- az-Zubayr ibn Awwam
+- Abu Hudhayfah
+- Uthman ibn Affan
+- several other
+
+Those who remained included Rasulullah ﷺ and Abu Bakr and Ali, and those who were restrained or held by the Makkan Kuffar.
+
+
+## Chapter 8
+
+Difference between Makkan and Madinan societies
+
+### The Jews of Madinah
+
+The Jews had been in Yathrib since the first century CE. In 70 CE, when Jerusalem was crusaded by the Romans and the Jews were evicted, a group migrated to Arabia and settled in Madinah. They formed 3 tribes:
+
+- Qaynuqa (~700 fighters)
+- An-Nadir (~700 fighters)
+- Qurayzah (between 700 and 900 fighters)
+
+These tribes were opposed to each other, however, as mentioned in the Quran:
+
+![2 84](https://user-images.githubusercontent.com/90349598/135095597-ff9173ad-c0da-4004-b39f-e168d9141a50.png)
+
+At the time of Rasulullah ﷺ, Banu an-Nadir and Qurayzah hated Banu Qaynuqa because they sided with Banu Khazraj in the battle of Bu'ath in 617 AD. Thus, while the Jews lived separate from the rest of the Arabs in Yathrib, Banu an-Nadir and Banu Qaynuqa forced Banu Qaynuqa to the outskirts of Madinah.
+
+<!--  ![](https://upload.wikimedia.org/wikipedia/commons/4/45/Battle_of_Trench_627_CE.png) -->
+| ![غزوة الخندق 2](https://user-images.githubusercontent.com/90349598/135097800-37e8dc83-0c83-4971-bf25-9659528fb184.gif) |
+|:--:|
+| <b>At the time of the battle of the trench in 627 CE, the Jewish tribes were located in the southeast corner of Madinah.</b>|
+
+#### Religious affairs of the Jews
+
+The Jews passed down knowledge in seminaries called _midra_, where they taught religious and secular sciences. They prayed in synagogues. They followed the Pentateuch, but also followed the customs their rabbis would include in their religion. While they continued their tradition of religion in some form, they were not truly practicing, as besides the fundamental tenets of their relegion they were otherwise indistinguishable from their polytheist neighbors. For example, they spent their time in magic and soothsaying.  
+Their most egregious shortcoming, however, was ignoring the message sent to them by Rasullulah ﷺ, in spite of the evident proof that he was the very man they were waiting for to be their prophet. They would even mock him, calling him رعنا since they were ignoring him.
+
+> **رعن** _Prophet of Mercy_ to be ignorant & dumb. _Hans Wehr_ to be lightheaded, frivolous.
+
+| ![2 104](https://user-images.githubusercontent.com/90349598/135099784-95484601-3b39-4e3e-8960-efce8b126e97.PNG) |
+|:--:|
+| <b>Al-Baqara ayah 104</b>|
+
+#### Finances
+
+The Jews were often creditors, lending money or property. When recompense was needed, they would ask for women and men. These practices only further increased tensions between the Jews and the Arabs. The Jews were able to lend out capital because they owned the capital through usury, hoarding, and profiteering. Perhaps they felt a sense of entitlement, as the 'ones who receive divine guidance,' yet they were the most misguided.
+
+#### Religious and cultural conditions
+
+In the beginning of this chapter, there is a quote from Dr. Israel Wellphenson that highlights how the Jews kept their religion to themselves and would not invite others to their religion. Perhaps an interesting aspect to this is again the pride of the Jews and the religious superiority they claimed to have over others. This is also reflected in their language and culture. For the former, they spoke a mix of Arabic and Hebrew, maintaining Hebrew for transmission of knowledge. Socially, they were constantly fighting against the Khazraj and Aws tribes and maintained exclusivity. However, their 6 centuries of neighboring Banu Khazraj and Aws meant that these tribes were acutely aware of Judaism, and some even became Jew through marriage or through a custom of leaving a child with the Jews if one dies in infancy. 
+
+### The Aws and the Khazraj
+
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Jemen1988-022_hg.jpg/1920px-Jemen1988-022_hg.jpg) |
+|:--:|
+| ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ACW9zCBtz-y4MYZhE84nmw1PdnxhymmL3Q&usqp=CAU) |
+|:--:|
+| <b>Marib dam in Yemen</b>|
+
+These tribes are originally from Yemen. In about 145 BC, the dam of Marib was severely breached by the people of Saba, as mentioned in the Quran:
+
+![saba15](https://user-images.githubusercontent.com/90349598/135143578-930e5837-95c2-481b-8740-2a0342ae3f16.PNG)
+
+![Saba16](https://user-images.githubusercontent.com/90349598/135143609-31bf504c-4425-454e-9df5-32d0ea2695be.PNG)
+
+![Saba17](https://user-images.githubusercontent.com/90349598/135143628-121da12d-2d44-4d29-a891-f303558dd3eb.PNG)
+
+There was also political unrest in Yemen. The Aws and Khazraj descend from the tribe of Azd, who migrated in waves to Madinah and other nothern areas (there were multiple times of unrest and the dam being broken in Yemen over the centuries, from 145 BCE until at least 6th century CE, until the advent of Islam and eventual conquer of Yemen).
+
+The Aws settled in the southeast of Madinah, while the Khazraj were north and central. The Aws were closer to fertile ground, as south of Madinah held forests and date trees, while Khazraj were in less fertile land.
+
+Banu Khazraj consisted of four clans:
+
+- Malik
+- Adi
+- Mazin
+- Dinar
+
+Both the Aws and Khazraj had sizeable power, but it is uncertain exactly how many were in. At the time of the proohet ﷺ, the Arabs had the upper hand after a series of battles between the resident tribes in Madinah, the most recent of which was only 5 years before Hijrah. 
+
+The enmity between the Aws, Khazraj, and the Jews is seen in the incident with Sha'th ibn Qays, one of the Jews. He passed by some Aws and Khazraj together in harmony, and in spite recited poems of the past to inflame them. The Aws and Khazraj indeed became inflamed and began bickering until Rasulullah ﷺ came and settled their hearts. Such were the passions they had in the past.
+
+### Physical and geographical conditions
+
+As seen in the earlier image, at the time of Rasulullah ﷺ there was clear separation between tribes spatially. Each contained lands for growing and livestock, lands for living, and land for protection (fortresses), since such was the type of society they were in. The Jews in particular had 95 such fortresses. What a strange society, each tribe at each others throats, living in proximity for centuries, built in such a way that they relied on each other for survival as much as they needed to protect themselves from one another. In the Quran, this is referenced:
+
+| ![Hashr14](https://user-images.githubusercontent.com/90349598/135147854-7c0350ee-c54d-453e-bd1e-8c01a1caa4c8.PNG) |
+|:--:|
+| <b>Surah Hashr ayah 14</b>|
+
+Physically, Madinah has several plains formed through lava. Notably, on the east is Harrat al Waqim and on the west is Harrat al-Wabarah. These plains of igneous, dangerous rocks prevent attack from the sides of Madinah. Coupled with the foresty land on the south, and Madinah was practically a physical stronghold.
+
+| ![Harrat al Waqim](https://elmeezan.com/wp-content/uploads/%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%AD%D8%B1%D8%A9-%D8%A8%D9%86%D9%8A-%D9%82%D8%B1%D9%8A%D8%B8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9.png) |
+|:--:|
+| <b>حرة واقم</b>|
+
+| ![Harrat al Wabarah](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-319-33015-0_3/MediaObjects/319516_1_En_3_Fig19_HTML.gif) |
+|:--:|
+| <b>حرة واقم</b>|
+
+
+
 

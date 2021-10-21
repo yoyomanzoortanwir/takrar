@@ -1,6 +1,6 @@
 bookdown::gitbook:
   highlight: tango
-  css: ["style.css","style2.css"]
+  css: ["style.css","style2.css", "timeline.css"]
   toc_depth: 4
   config:
     fontsettings:

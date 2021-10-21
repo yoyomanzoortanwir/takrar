@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 3 تربيّة | Takrar</title>
   <meta name="description" content="A collection of notes taken from tanwir classes" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 3 تربيّة | Takrar" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,9 @@
   <link rel="shortcut icon" href="images/favicon_io/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="conversation.html"/>
 <link rel="next" href="aqeedah.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,7 +50,6 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
@@ -56,9 +57,32 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="style2.css" type="text/css" />
+<link rel="stylesheet" href="timeline.css" type="text/css" />
 </head>
 
 <body>
@@ -74,29 +98,118 @@
 <li><a href="./">Takrar</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#intent"><i class="fa fa-check"></i><b>1.1</b> Intentions</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#seeking-knowledge"><i class="fa fa-check"></i><b>1.2</b> Seeking knowledge</a></li>
 </ul></li>
 <li class="part"><span><b>I دروس العربي</b></span></li>
-<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a><ul>
+<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="conversation.html"><a href="conversation.html#jobs"><i class="fa fa-check"></i><b>2.1</b> الأسماء الأعمال</a></li>
 </ul></li>
 <li class="part"><span><b>II دروس الإسلام</b></span></li>
-<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a><ul>
-<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
-<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.2</b> The concept of فيض</a></li>
-<li class="chapter" data-level="3.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.3</b> Miracles</a></li>
-<li class="chapter" data-level="3.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.4</b> Difficulties in memorizing</a></li>
-<li class="chapter" data-level="3.5" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.5</b> Intentions</a></li>
+<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#فوائد"><i class="fa fa-check"></i><b>3.1</b> فوائد</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
+<li class="chapter" data-level="3.1.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.1.2</b> The concept of فيض</a></li>
+<li class="chapter" data-level="3.1.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.1.3</b> Miracles</a></li>
+<li class="chapter" data-level="3.1.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.1.4</b> Difficulties in memorizing</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a><ul>
-<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a><ul>
+<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#أحاديث"><i class="fa fa-check"></i><b>3.2</b> أحاديث</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.2.1</b> Intentions</a></li>
+<li class="chapter" data-level="3.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١"><i class="fa fa-check"></i><b>3.2.2</b> حديث ١</a>
+<ul>
+<li class="chapter" data-level="3.2.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث"><i class="fa fa-check"></i><b>3.2.2.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لزاد-الطالبين"><i class="fa fa-check"></i><b>3.2.2.2</b> الخلاصة لزاد الطالبين</a></li>
+<li class="chapter" data-level="3.2.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي"><i class="fa fa-check"></i><b>3.2.2.3</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٢"><i class="fa fa-check"></i><b>3.2.3</b> حديث ٢</a>
+<ul>
+<li class="chapter" data-level="3.2.3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-1"><i class="fa fa-check"></i><b>3.2.3.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-1"><i class="fa fa-check"></i><b>3.2.3.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.4" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٣"><i class="fa fa-check"></i><b>3.2.4</b> حديث ٣</a>
+<ul>
+<li class="chapter" data-level="3.2.4.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-2"><i class="fa fa-check"></i><b>3.2.4.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.4.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-2"><i class="fa fa-check"></i><b>3.2.4.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.5" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٤"><i class="fa fa-check"></i><b>3.2.5</b> حديث ٤</a>
+<ul>
+<li class="chapter" data-level="3.2.5.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-3"><i class="fa fa-check"></i><b>3.2.5.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.5.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-3"><i class="fa fa-check"></i><b>3.2.5.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.6" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٥"><i class="fa fa-check"></i><b>3.2.6</b> حديث ٥</a>
+<ul>
+<li class="chapter" data-level="3.2.6.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-4"><i class="fa fa-check"></i><b>3.2.6.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.6.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-4"><i class="fa fa-check"></i><b>3.2.6.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.7" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٦"><i class="fa fa-check"></i><b>3.2.7</b> حديث ٦</a>
+<ul>
+<li class="chapter" data-level="3.2.7.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-5"><i class="fa fa-check"></i><b>3.2.7.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.7.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-5"><i class="fa fa-check"></i><b>3.2.7.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.8" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٧"><i class="fa fa-check"></i><b>3.2.8</b> حديث ٧</a>
+<ul>
+<li class="chapter" data-level="3.2.8.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-6"><i class="fa fa-check"></i><b>3.2.8.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.8.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-6"><i class="fa fa-check"></i><b>3.2.8.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.9" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٨"><i class="fa fa-check"></i><b>3.2.9</b> حديث ٨</a>
+<ul>
+<li class="chapter" data-level="3.2.9.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-7"><i class="fa fa-check"></i><b>3.2.9.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.9.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-7"><i class="fa fa-check"></i><b>3.2.9.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.10" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٩"><i class="fa fa-check"></i><b>3.2.10</b> حديث ٩</a>
+<ul>
+<li class="chapter" data-level="3.2.10.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-8"><i class="fa fa-check"></i><b>3.2.10.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.10.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-8"><i class="fa fa-check"></i><b>3.2.10.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.11" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٠"><i class="fa fa-check"></i><b>3.2.11</b> حديث ١٠</a>
+<ul>
+<li class="chapter" data-level="3.2.11.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-9"><i class="fa fa-check"></i><b>3.2.11.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.11.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-9"><i class="fa fa-check"></i><b>3.2.11.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.12" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١١"><i class="fa fa-check"></i><b>3.2.12</b> حديث ١١</a>
+<ul>
+<li class="chapter" data-level="3.2.12.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-10"><i class="fa fa-check"></i><b>3.2.12.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.12.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-10"><i class="fa fa-check"></i><b>3.2.12.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.13" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-11"><i class="fa fa-check"></i><b>3.2.13</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.13.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-12"><i class="fa fa-check"></i><b>3.2.13.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.13.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-11"><i class="fa fa-check"></i><b>3.2.13.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.14" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٣"><i class="fa fa-check"></i><b>3.2.14</b> حديث ١٣</a>
+<ul>
+<li class="chapter" data-level="3.2.14.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-13"><i class="fa fa-check"></i><b>3.2.14.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.14.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-12"><i class="fa fa-check"></i><b>3.2.14.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.15" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٤"><i class="fa fa-check"></i><b>3.2.15</b> حديث ١٤</a>
+<ul>
+<li class="chapter" data-level="3.2.15.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-14"><i class="fa fa-check"></i><b>3.2.15.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.15.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-13"><i class="fa fa-check"></i><b>3.2.15.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.16" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-15"><i class="fa fa-check"></i><b>3.2.16</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.16.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-16"><i class="fa fa-check"></i><b>3.2.16.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.16.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-14"><i class="fa fa-check"></i><b>3.2.16.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-عقيدة"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to عقيدة</a></li>
-<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a><ul>
+<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a>
+<ul>
 <li class="chapter" data-level="4.1.2.1" data-path="aqeedah.html"><a href="aqeedah.html#silly-syllogisms"><i class="fa fa-check"></i><b>4.1.2.1</b> Silly syllogisms</a></li>
 </ul></li>
-<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a><ul>
+<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a>
+<ul>
 <li class="chapter" data-level="4.1.3.1" data-path="aqeedah.html"><a href="aqeedah.html#definitions"><i class="fa fa-check"></i><b>4.1.3.1</b> Definitions</a></li>
 <li class="chapter" data-level="4.1.3.2" data-path="aqeedah.html"><a href="aqeedah.html#اهل-السنة-vs-اهل-القبلة"><i class="fa fa-check"></i><b>4.1.3.2</b> اهل السنة vs اهل القبلة</a></li>
 </ul></li>
@@ -104,22 +217,31 @@
 <li class="chapter" data-level="4.1.5" data-path="aqeedah.html"><a href="aqeedah.html#mutazilah"><i class="fa fa-check"></i><b>4.1.5</b> <em>Mu’tazilah</em></a></li>
 <li class="chapter" data-level="4.1.6" data-path="aqeedah.html"><a href="aqeedah.html#codification-of-علم-الكلام"><i class="fa fa-check"></i><b>4.1.6</b> Codification of علم الكلام</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a><ul>
-<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a><ul>
+<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a>
+<ul>
 <li class="chapter" data-level="4.2.1.1" data-path="aqeedah.html"><a href="aqeedah.html#definition"><i class="fa fa-check"></i><b>4.2.1.1</b> Definition</a></li>
-<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rational-arguments"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
+<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rat"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-1"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument</a><ul>
+<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-kca"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument (KCA)</a>
+<ul>
 <li class="chapter" data-level="4.2.2.1" data-path="aqeedah.html"><a href="aqeedah.html#premise-a"><i class="fa fa-check"></i><b>4.2.2.1</b> Premise A</a></li>
 <li class="chapter" data-level="4.2.2.2" data-path="aqeedah.html"><a href="aqeedah.html#premise-b"><i class="fa fa-check"></i><b>4.2.2.2</b> Premise B</a></li>
+<li class="chapter" data-level="4.2.2.3" data-path="aqeedah.html"><a href="aqeedah.html#conclusion-of-kca"><i class="fa fa-check"></i><b>4.2.2.3</b> Conclusion of KCA</a></li>
+<li class="chapter" data-level="4.2.2.4" data-path="aqeedah.html"><a href="aqeedah.html#tasalsul"><i class="fa fa-check"></i><b>4.2.2.4</b> Tasalsul</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2.3" data-path="aqeedah.html"><a href="aqeedah.html#attributes-of-the-creation"><i class="fa fa-check"></i><b>4.2.3</b> Attributes of the creation</a></li>
 </ul></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a><ul>
-<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a><ul>
+<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="history.html"><a href="history.html#election-of-the-khilafa"><i class="fa fa-check"></i><b>5.1.1</b> Election of the Khilafa</a></li>
 <li class="chapter" data-level="5.1.2" data-path="history.html"><a href="history.html#the-apostates"><i class="fa fa-check"></i><b>5.1.2</b> The apostates</a></li>
-<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a><ul>
+<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a>
+<ul>
 <li class="chapter" data-level="5.1.3.1" data-path="history.html"><a href="history.html#the-byzantines"><i class="fa fa-check"></i><b>5.1.3.1</b> The Byzantines</a></li>
 <li class="chapter" data-level="5.1.3.2" data-path="history.html"><a href="history.html#battle-for-medina"><i class="fa fa-check"></i><b>5.1.3.2</b> Battle for Medina</a></li>
 <li class="chapter" data-level="5.1.3.3" data-path="history.html"><a href="history.html#skirmishes-throughout-hijaz"><i class="fa fa-check"></i><b>5.1.3.3</b> Skirmishes throughout <em>hijaz</em></a></li>
@@ -127,9 +249,37 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="history.html"><a href="history.html#عمر"><i class="fa fa-check"></i><b>5.2</b> عمرؓ</a></li>
 </ul></li>
+<li class="chapter" data-level="6" data-path="seerah.html"><a href="seerah.html"><i class="fa fa-check"></i><b>6</b> سيرة</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="seerah.html"><a href="seerah.html#اهل-الرسول-ﷺ"><i class="fa fa-check"></i><b>6.1</b> اهل الرسول ﷺ</a></li>
+<li class="chapter" data-level="6.2" data-path="seerah.html"><a href="seerah.html#chapter-7"><i class="fa fa-check"></i><b>6.2</b> Chapter 7</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="seerah.html"><a href="seerah.html#the-beginning-of-islam-amongst-the-ansar"><i class="fa fa-check"></i><b>6.2.1</b> The beginning of Islam amongst the Ansar</a></li>
+<li class="chapter" data-level="6.2.2" data-path="seerah.html"><a href="seerah.html#first-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.2</b> First pledge of ’Aqabah</a>
+<ul>
+<li class="chapter" data-level="6.2.2.1" data-path="seerah.html"><a href="seerah.html#the-reason-for-the-ansars-acceptance-of-islam"><i class="fa fa-check"></i><b>6.2.2.1</b> The reason for the Ansar’s acceptance of Islam</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2.3" data-path="seerah.html"><a href="seerah.html#strategic-importance-of-madinah"><i class="fa fa-check"></i><b>6.2.3</b> Strategic importance of Madinah</a></li>
+<li class="chapter" data-level="6.2.4" data-path="seerah.html"><a href="seerah.html#expansion-of-islam-in-madinah"><i class="fa fa-check"></i><b>6.2.4</b> Expansion of Islam in Madinah</a></li>
+<li class="chapter" data-level="6.2.5" data-path="seerah.html"><a href="seerah.html#second-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.5</b> Second pledge of ’Aqabah</a></li>
+<li class="chapter" data-level="6.2.6" data-path="seerah.html"><a href="seerah.html#permission-to-migrate-to-madinah"><i class="fa fa-check"></i><b>6.2.6</b> Permission to migrate to Madinah</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="seerah.html"><a href="seerah.html#chapter-8"><i class="fa fa-check"></i><b>6.3</b> Chapter 8</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="seerah.html"><a href="seerah.html#the-jews-of-madinah"><i class="fa fa-check"></i><b>6.3.1</b> The Jews of Madinah</a>
+<ul>
+<li class="chapter" data-level="6.3.1.1" data-path="seerah.html"><a href="seerah.html#religious-affairs-of-the-jews"><i class="fa fa-check"></i><b>6.3.1.1</b> Religious affairs of the Jews</a></li>
+<li class="chapter" data-level="6.3.1.2" data-path="seerah.html"><a href="seerah.html#finances"><i class="fa fa-check"></i><b>6.3.1.2</b> Finances</a></li>
+<li class="chapter" data-level="6.3.1.3" data-path="seerah.html"><a href="seerah.html#religious-and-cultural-conditions"><i class="fa fa-check"></i><b>6.3.1.3</b> Religious and cultural conditions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3.2" data-path="seerah.html"><a href="seerah.html#the-aws-and-the-khazraj"><i class="fa fa-check"></i><b>6.3.2</b> The Aws and the Khazraj</a></li>
+<li class="chapter" data-level="6.3.3" data-path="seerah.html"><a href="seerah.html#physical-and-geographical-conditions"><i class="fa fa-check"></i><b>6.3.3</b> Physical and geographical conditions</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a><ul>
+<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a>
+<ul>
 <li class="chapter" data-level="A.1" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف"><i class="fa fa-check"></i><b>A.1</b> فعل ماضي معروف</a></li>
 <li class="chapter" data-level="A.2" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف-1"><i class="fa fa-check"></i><b>A.2</b> فعل ماضي معروف</a></li>
 </ul></li>
@@ -153,15 +303,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="tarbiyya" class="section level1">
+<div id="tarbiyya" class="section level1" number="3">
 <h1><span class="header-section-number">Section 3</span> تربيّة</h1>
-<div id="qari-siddique" class="section level2">
-<h2><span class="header-section-number">3.1</span> Qari Mohammad Sayed Siddique Ahmad Bandwi</h2>
-<p>Qari Siddique Bandwi was born in Baanda, India in 1919 <span class="citation">(“Hazrat Maulana Mohammad Sayed Siddique Ahmad Bandwi” <a href="references.html#ref-bundelkhand">2011</a>)</span>. He was of such character and piety that when sheikh Abdul Fattah, a renowned Syrian scholar, asked Maulana Shabiq (the principal of Darul Uloom Zakariyya) about awliyah he could visit, Maulana Shabiq referred Qari Siddique Bandwi. Sheikh Abdul Fattah traveled all they way to the small city of Baanda to visit him.</p>
+<div id="فوائد" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> فوائد</h2>
+<div id="qari-siddique" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Qari Mohammad Sayed Siddique Ahmad Bandwi</h3>
+<p>Qari Siddique Bandwi was born in Baanda, India in 1919 <span class="citation">(<a href="#ref-bundelkhand" role="doc-biblioref"><span>“Hazrat Maulana Mohammad Sayed Siddique Ahmad Bandwi”</span> 2011</a>)</span>. He was of such character and piety that when sheikh Abdul Fattah, a renowned Syrian scholar, asked Maulana Shabiq (the principal of Darul Uloom Zakariyya) about awliyah he could visit, Maulana Shabiq referred Qari Siddique Bandwi. Sheikh Abdul Fattah traveled all they way to the small city of Baanda to visit him.</p>
 <p>Another incident regarding Qari Bandwi is when he was collecting donations for a madrasa in baanda. He was taking the train home late at night in the remote village, bringing with him the bag of funds he collected, when a group of thieves stopped him and staged a stick up. They told him to leave the money, but Qari Bandwi said he can’t give the money since it did not belong to him. The thieves did not care and wanted the money anyway, so Qari Bandwi threw them the bag and said, “let’s see how far you go.” The next day, someone came to Qari Bandwi and said there are people in the city looking for him. It was the robbers; they were unable to make their escape ― it was like there was an invisible barrier preventing them from leaving the city.</p>
 </div>
-<div id="the-concept-of-فيض" class="section level2">
-<h2><span class="header-section-number">3.2</span> The concept of فيض</h2>
+<div id="the-concept-of-فيض" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> The concept of فيض</h3>
 <blockquote>
 <p><strong>فيض</strong><br />
 <em>Hans Wehr</em> flood, inundation, deluge; emanation; superabundance, plenty, copiousness, abundance; stream<br />
@@ -172,8 +324,8 @@
 <p>This is the concept of فيض. It is the moment when Angel Jibreel hugged Nabi ﷺ tightly in the cave of Hira. It is the feeling of spiritual rejuvenation felt in the presence of the awliyah. It is part and parcel to why the Islamic tradition emphasizes attainment of knowledge from scholar to student in an intimate manner, where knowledge is not just information but an exercise in connecting heart-to-heart. We hope and pray that in this manner, by staying close with those who are close to Allah ﷻ, we too can get closer to Allah ﷻ.<br />
 One of the scholars would invite the students to his house from Asr to Maghrib, and offer them tea. They would not say anything in that time, just sit and do Adhkar. Just by sitting in the presence of the scholar, the students could find benefit in their own spiritual growth.</p>
 </div>
-<div id="miracles" class="section level2">
-<h2><span class="header-section-number">3.3</span> Miracles</h2>
+<div id="miracles" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Miracles</h3>
 <p>In the story of the theives and <span id="qari-siddique">Qari Siddique Bandwi</span>, the supernatural incident where the thieves were unable to leave the city due to an invisible barrier they felt is an example of a <em>كرامة</em>.<br />
 <strong>معجرة</strong> is the supernatural phenomenon for a prophet. إعجاز is literally something inimitable and wondrous. For example, Rasulullah ﷺ splitting the moon, or Musa (AS) splitting the sea.<br />
 <strong>كرامة</strong> is where a supernatural incident happens at the hands of a wali of Allah ﷻ. It honors the wali and proves their nearness to Allah ﷻ. Every كرامة is a معجرة of their prophet because they would not happen without the wali following the sunnah of their prophet.</p>
@@ -190,17 +342,405 @@ Another example is Sulaiman (AS). The ayah in the Qur’an discusses this (27:40
 </blockquote>
 <p>In summary, whenever there is a fadhal from Allah ﷻ, we should be grateful and aware that these things are a test.</p>
 </div>
-<div id="difficulties-in-memorizing" class="section level2">
-<h2><span class="header-section-number">3.4</span> Difficulties in memorizing</h2>
+<div id="difficulties-in-memorizing" class="section level3" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Difficulties in memorizing</h3>
 <p>Imam Zaid Shakir said that when joined Madrasa, he was about 29. He spent an entire day memorizing the first line of his Nahw lesson. At the end of the day, he found that he forgot that single line he spent the entire day memorizing. He spent days and days on that single line.<br />
 It takes time to learn and memorize, and there will be times where it seems difficult or even impossible. But it is important to remember that Allah ﷻ chose us to be here, and it is by his will that we remember anything and his will that we forget, and we just need to put our most sincere and best effort forward in hopes that He will accept our efforts.</p>
 </div>
-<div id="intentions" class="section level2">
-<h2><span class="header-section-number">3.5</span> Intentions</h2>
+</div>
+<div id="أحاديث" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> أحاديث</h2>
+<div id="intentions" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Intentions</h3>
 <p>See <a href="index.html#intent">the section in the home page</a> for a more general discussion on intention.</p>
 <p>It is of utmost importance to be sincere in our intentions. Through a noble intention, a small action becomes heavy in the scales, and through a bad intention a huge action becomes light in the scales.</p>
 <p>tamlul mizan - scales are by weight, not number</p>
+</div>
+<div id="حديث-١" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> حديث ١</h3>
+<div id="حديث" class="section level4" number="3.2.2.1">
+<h4><span class="header-section-number">3.2.2.1</span> حديث</h4>
+<blockquote>
+<p>الدين النصيحة</p>
+</blockquote>
+<blockquote>
+<p>The Religion (Islam) is to act with sincerity (<em>Muslim</em>)</p>
+</blockquote>
+<details>
+<summary>
+Click here to view Hans Wehr definition for نصح
+</summary>
+<img src="images/nasaha_1.png" />
+<img src="images/nasaha_2.png" />
+</details>
+</div>
+<div id="الخلاصة-لزاد-الطالبين" class="section level4" number="3.2.2.2">
+<h4><span class="header-section-number">3.2.2.2</span> الخلاصة لزاد الطالبين</h4>
+<p>The word <em>nasiha</em> is a difficult word to translate into English. It encompasses many things such as</p>
+<ul>
+<li>acting with sincerity and honesty</li>
+<li>giving good advice</li>
+<li>enjoining towards good</li>
+<li>desiring good</li>
+</ul>
+</div>
+<div id="الخلاصة-لخطبة-المفتي" class="section level4" number="3.2.2.3">
+<h4><span class="header-section-number">3.2.2.3</span> الخلاصة لخطبة المفتي</h4>
+<div id="hadith-commentary" class="section level5" number="3.2.2.3.1">
+<h5><span class="header-section-number">3.2.2.3.1</span> Hadith commentary</h5>
+<p>The word نصح:</p>
+<ol style="list-style-type: decimal">
+<li>نصحة الثوب a man sewing his clothes</li>
+<li>نصحة العسل to purify honey from wax</li>
+</ol>
+<p>What is the connection between these and well wishing? For 1, if there is a tear in clothes, you tie and sew it to fix it and make it whole and beautiful again. The Deen is like this for tears in relationships between people.<br />
+The ال on نصيح makes it a صفة, it tells us the significance of it. You cannot be on the Deen without being a well wisher.<br />
+According to the <em>ulama</em>, this Hadith constitutes <span class="math inline">\(\frac{1}{4}\)</span> of Deen. Imam Nawawi said this is 100% of Deen.</p>
+<p>The the rest of the Hadith, the sahaba ask Rasulullah ﷺ “لمن?” Rasulullah ﷺ said “For Allah ﷻ, His Book, His Messenger, the leaders of the Muslims, and the common people.”</p>
+<p>This Hadith is structured with a purposeful order to the entities to which نصيحshould be given to.</p>
+<ol style="list-style-type: decimal">
+<li>For Allah ﷻ</li>
+</ol>
+<p>This means to obey and believe in Allah ﷻ.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>For His Book</li>
+</ol>
+<p>This means to believe in the Qur’an and that no one but Allah ﷻ revealed it. It means to recite it as it is meant to be recited and to heed the messages it tells us.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>For His Messenger</li>
+</ol>
+<p>This means to honor him before and after his life, to replicate his Sunnah, to defend and love him and his family and his companions</p>
+<ol start="4" style="list-style-type: decimal">
+<li>For this leaders of the Muslims</li>
+</ol>
+<p>This refers to the Muslim government and the scholars, since both are leaders of the Ummah (although a khalifa does not exist in the present day). This means to obey them and assist them, and to gently guide them when they make mistakes. Just like the blind spots of a car that are covered by the rear view mirrors, the Muslims should be covering the blind spots of their leaders. It also entails not demanding anarchy and encouraging Muslims to follow their leaders (protest, when justified, is warranted, but unwarranted rebellion and intentionally causing dissent is not).<br />
+Also, given the order of things the Hadith conveys, obeying Allah ﷻ is more important than anything else, so if there is something the leaders are asking of the people are asking that is against the Deen, it is more important to obey Allah ﷻ.</p>
+</div>
+<div id="the-etiquette-of-giving-and-receiving-advice" class="section level5" number="3.2.2.3.2">
+<h5><span class="header-section-number">3.2.2.3.2</span> The etiquette of giving and receiving advice</h5>
+<ol style="list-style-type: decimal">
+<li>Ikhlaas</li>
+</ol>
+<p>Advice should be given out of sincerity, not with the intention to disgrace. To be a well wisher means to not call people out in a bad way, to tell them privately, to talk with sincerity and gently. It also entails starting from a soft place, a place of friendliness. It is never a good idea to be uncongenial and caustic in how we approach people, even with the intent of correcting someone. When a cook would cook in the past, it would take a long time to start the fire, and short time to cook the meat.</p>
+<p>For example, there was a time when Rasulullah ﷺ was praying Salah, and before he got up from Rukuhsomeone ran to join the Saff and said Allahuakbar while running to catch the Ruku. Rasullah ﷺ tells him “May Allah ﷻ increase you, but don’t repeat this mistake.” He ﷺ begins with praise and recognizing the good intent in the Sahabi that he had so much desire to catch the ruku.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Don’t hide naseeha</li>
+</ol>
+<p>Nabi ﷺ said there are 6 rights of a Muslim on another. One of them is to give advice whenever he asks for advice. If someone asks about a person for marriage, or a school, or a business they are interested in, etc., and they come to consult you because you have some experience or expertise, you should give the full advice. If it is related to a person, such as about a person with the intent of marriage, you can speak without backbiting by saying something like “it’s not a good match.” There’s no need to give detailed reasons if it leads to backbiting.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Giving naseeha in a proper manner</li>
+</ol>
+<p>As mentioned above, gentleness when giving advice is essential. Leave out harshness and hardness and use wisdom in how you approach or respond to a person. In Surah Naml, ayah 125:</p>
+<blockquote>
+<p>ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَـٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ</p>
+</blockquote>
+<blockquote>
+<p>Invite (people) to the way of your Lord with wisdom and good counsel. And argue with them in the best of manners. Surely, your Lord knows best the one who deviates from His way, and He knows best the ones who are on the right path.<br />
+Mufti Taqi Usmani</p>
+</blockquote>
+<ol start="4" style="list-style-type: decimal">
+<li>Give advice in secrecy/privately</li>
+</ol>
+<p>Imam Shafi has a poem:</p>
+<blockquote>
+<p>If you want to give me advice,<br />
+give it in private<br />
+Because advice in public is reprimanding</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="حديث-٢" class="section level3" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> حديث ٢</h3>
+<div id="حديث-1" class="section level4" number="3.2.3.1">
+<h4><span class="header-section-number">3.2.3.1</span> حديث</h4>
+<blockquote>
+<p>الدعاء مخ العبادة</p>
+</blockquote>
+<blockquote>
+<p>Supplication is the essence of worship (<em>Bukhari</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-1" class="section level4" number="3.2.3.2">
+<h4><span class="header-section-number">3.2.3.2</span> الخلاصة لخطبة المفتي</h4>
+<p>Begging Allah ﷻ means you are a believer. Why would you knock on a door when you know no one’s there? As Iman grows, the duas become longer and more sincere, since it reflects conviction in Allah ﷻ.<br />
+If you were on a TV show were they give you the option of 5, 10, or 20 minutes to grab anything you want from Best Buy for free, would you choose 5 minutes? Of course, to grab as much as possible, one would choose 20 minutes. It is foolish to pick less time if you are aware there is a reward.</p>
+<p>Dua begins with praise of Allah ﷻ, e.g. through Al-Fatihah, duas from the morning &amp; evening duas booklet, or names of Allah ﷻ. Then, we make salawat. We begin with issues we are facing acutely, such as in the moment or in the 1-year program, then ask for the future, then for parents, teachers, family, classmates, etc. then we ask for our entire life, the grave, the afterlife. Finally, we end with salawat and praise of Allah ﷻ.</p>
+</div>
+</div>
+<div id="حديث-٣" class="section level3" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> حديث ٣</h3>
+<div id="حديث-2" class="section level4" number="3.2.4.1">
+<h4><span class="header-section-number">3.2.4.1</span> حديث</h4>
+<blockquote>
+<p>المرء مع من أحب</p>
+</blockquote>
+<blockquote>
+<p>A person will be with whom he loves (<em>Bukhari, Muslim</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-2" class="section level4" number="3.2.4.2">
+<h4><span class="header-section-number">3.2.4.2</span> الخلاصة لخطبة المفتي</h4>
+<p>According to Anasؓ, there was no day happier after accepting Islam than when this Hadith was revealed.<br />
+A Sahabi came to Rasulullah ﷺ complaining, that ‘When I am with you I feel good, but once I leave you I lose myself until I come running back to you. How will I be once you pass away? Your level in Jannah will be so much higher, I will never see you again.’ Rasulullah ﷺ was silent for a bit, and then the ayah was revealted,</p>
+<blockquote>
 
+</blockquote>
+<p>According to a poem, “Love the pious, for even if you are not amongst them inshallah Allah will grant you piety.”</p>
+</div>
+</div>
+<div id="حديث-٤" class="section level3" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> حديث ٤</h3>
+<div id="حديث-3" class="section level4" number="3.2.5.1">
+<h4><span class="header-section-number">3.2.5.1</span> حديث</h4>
+<blockquote>
+<p>الأناة من الله و العجلة من الشيطان</p>
+</blockquote>
+<blockquote>
+<p>Calmness and patient deliberation is from Allah ﷻ and haste is from Satan (<em>Tirmidhi</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-3" class="section level4" number="3.2.5.2">
+<h4><span class="header-section-number">3.2.5.2</span> الخلاصة لخطبة المفتي</h4>
+<p>We attribute all good to Allah ﷻ. We should hurry to do good Deen, as this type of hurry is not from Shaytaan. Our niyyah must be correct — to hasten towards good, but to be calm and collected while doing good.</p>
+<p>An example of hastening incorrectly is in context of marriage. It is a huge decision, so one should not rush into it. Decisions like these should not be based on the immediate need, and requires thought about the future, especially with respect to how it will affect our Deen, our afterlife, and our progeny.</p>
+<p>In the surah Isra ayah 11, عجلة is used to show how we hasten towards evil.</p>
+<blockquote>
+<p>وَيَدْعُ ٱلْإِنسَـٰنُ بِٱلشَّرِّ دُعَآءَهُۥ بِٱلْخَيْرِ ۖ وَكَانَ ٱلْإِنسَـٰنُ عَجُولًا</p>
+</blockquote>
+<blockquote>
+<p>Man prays for evil like his prayer for good, and man is so hasty.<br />
+Mufti Taqi Usmani</p>
+</blockquote>
+</div>
+</div>
+<div id="حديث-٥" class="section level3" number="3.2.6">
+<h3><span class="header-section-number">3.2.6</span> حديث ٥</h3>
+<div id="حديث-4" class="section level4" number="3.2.6.1">
+<h4><span class="header-section-number">3.2.6.1</span> حديث</h4>
+<blockquote>
+<p>المجالس بالأمانة</p>
+</blockquote>
+<blockquote>
+<p>Gatherings are to be kept in confidence (<em>Abu Dawud</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-4" class="section level4" number="3.2.6.2">
+<h4><span class="header-section-number">3.2.6.2</span> الخلاصة لخطبة المفتي</h4>
+<p>What happens in a <em>majlis</em> stays in the <em>majlis</em>. Any private conversation <strong>must</strong> be kept secret. The only possible exception is where someone says they are going to do something to harm themselves or the Ummah, in which case you must do what you can to get them help or prevent the evil from happening, if there is intent for evil.</p>
+</div>
+</div>
+<div id="حديث-٦" class="section level3" number="3.2.7">
+<h3><span class="header-section-number">3.2.7</span> حديث ٦</h3>
+<div id="حديث-5" class="section level4" number="3.2.7.1">
+<h4><span class="header-section-number">3.2.7.1</span> حديث</h4>
+<blockquote>
+<p>الحياء شعبة من الإيمان</p>
+</blockquote>
+<blockquote>
+<p>Modesty is a branch of faith (<em>Bukhari, Muslim</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-5" class="section level4" number="3.2.7.2">
+<h4><span class="header-section-number">3.2.7.2</span> الخلاصة لخطبة المفتي</h4>
+<p>ما عندنا خطبة لهذ الحديث</p>
+</div>
+</div>
+<div id="حديث-٧" class="section level3" number="3.2.8">
+<h3><span class="header-section-number">3.2.8</span> حديث ٧</h3>
+<div id="حديث-6" class="section level4" number="3.2.8.1">
+<h4><span class="header-section-number">3.2.8.1</span> حديث</h4>
+<blockquote>
+<p>الخمر جمّاع الإثم</p>
+</blockquote>
+<blockquote>
+<p>Alcohol constitutes many sins (<em>Razin</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-6" class="section level4" number="3.2.8.2">
+<h4><span class="header-section-number">3.2.8.2</span> الخلاصة لخطبة المفتي</h4>
+<details>
+<summary>
+Click here to view Hans Wehr definition for عقل
+</summary>
+<img src="images/aqal.png" />
+</details>
+<details>
+<summary>
+Click here to view Hans Wehr definition for خمر
+</summary>
+<img src="images/khamr.png" />
+</details>
+<p>عقل (reason, rationality) ties you from doing wrong and harmful things. When drunk, the mind is unable to make decisions. خمر is a shroud or a cloak, it masks عقل and covers the mind. It releases the restrictions on doing haram and evil actions.<br />
+A person is asked, would you murder? He responds, “No.” Would you commit Zina? “No.” Would you steal? “No.” Lie. “No.” Eat Haram? No." Drink? “Sure.” The man drinks, then commits all of the above.<br />
+خمر is any intoxicant that alters the mind.</p>
+</div>
+</div>
+<div id="حديث-٨" class="section level3" number="3.2.9">
+<h3><span class="header-section-number">3.2.9</span> حديث ٨</h3>
+<div id="حديث-7" class="section level4" number="3.2.9.1">
+<h4><span class="header-section-number">3.2.9.1</span> حديث</h4>
+<blockquote>
+<p>المؤمن غرّ كريم والفاجر خبّ لّئيم</p>
+</blockquote>
+<blockquote>
+<p>A believer is simple and noble and a transgressor is deceitful and ignoble (<em>Abu Dawud, Tirmidhi</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-7" class="section level4" number="3.2.9.2">
+<h4><span class="header-section-number">3.2.9.2</span> الخلاصة لخطبة المفتي</h4>
+<p>If someone is at an airport, and the for Salah comes and he pays extra for a janimaz. He knows he is getting ripped off, but he does not mind since he desires to pray on a janimaz. It seems like he is getting deceived, but in reality he has higher priorities for which he sacrifices for, just like if a person was starving and offered food for an exorbitant price, he would pay the price for his survival.<br />
+There are also people who seem like they are getting deceived, but in reality are generous. In another Hadith, it comes that a believer does not get bit twice from the same hole, but this is not applicable to deliberate generosity, where a person knows he is getting deceived but continues to give out of generosity.</p>
+</div>
+</div>
+<div id="حديث-٩" class="section level3" number="3.2.10">
+<h3><span class="header-section-number">3.2.10</span> حديث ٩</h3>
+<div id="حديث-8" class="section level4" number="3.2.10.1">
+<h4><span class="header-section-number">3.2.10.1</span> حديث</h4>
+<blockquote>
+<p>الظلم ظلمات يوم القيامة</p>
+</blockquote>
+<blockquote>
+<p>Oppression will be darkness on the Day of Judgement (<em>Bukhari</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-8" class="section level4" number="3.2.10.2">
+<h4><span class="header-section-number">3.2.10.2</span> الخلاصة لخطبة المفتي</h4>
+<p>Believers will have noor rushing in front of them. Oppressors and disbelievers will have layers of darkness. An “oppressor” is a general term for someone that takes the right of something else. It is better to be the oppressed than the oppressor.</p>
+<p>What is ظلم?</p>
+<blockquote>
+<p><strong>ظلم</strong> — وضع شىء في غير محله<br />
+Putting something in the wrong place</p>
+</blockquote>
+<p>For example, putting your glasses on your feet, or your shoes on the desk.</p>
+<p>ظلم can be done to oneself. People were put on earth for a reason, so to go against it is ظلم. The limbs have certain purposes for which they were given to us, so to use them for sinning is ظلم since that is not the reason for which they were created. Furthermore, by committing sins, one oppresses oneself by putting themselves into hell.<br />
+There is no greater ظلم than shirk, however. No matter how many rights of the people are transgressed, the worst ظلم is to deny Allah ﷻ or His oneness since that is a transgression of His rights.<br />
+In humanism, it is often claimed that all that matters is how we treat others and social justice. But no one cares if you are praying. This is ظلم to yourself and to Allah ﷻ.</p>
+</div>
+</div>
+<div id="حديث-١٠" class="section level3" number="3.2.11">
+<h3><span class="header-section-number">3.2.11</span> حديث ١٠</h3>
+<div id="حديث-9" class="section level4" number="3.2.11.1">
+<h4><span class="header-section-number">3.2.11.1</span> حديث</h4>
+<blockquote>
+<p>الدنيا سجن المؤمن وجنّة الكافر</p>
+</blockquote>
+<blockquote>
+<p>The world is a prison for the believer and a paradise for the disbeliever (<em>Muslim, Tirmidhi</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-9" class="section level4" number="3.2.11.2">
+<h4><span class="header-section-number">3.2.11.2</span> الخلاصة لخطبة المفتي</h4>
+<p>A non-Muslim cobbler is sitting on a street, while a scholar on a fancy horse comes by. The cobbler says something under his breath, so the scholar turns around and inquires, “What did you say?” The cobbler says, “You don’t even follow what your Prophet is saying,” and he quotes this Hadith, and continues, “look how rich you are and how poor I am. You’re living in a Jannah while I live in a prison.” The scholars ponders and responds,</p>
+<ol style="list-style-type: decimal">
+<li>If I die in the state of Iman and Allah ﷻ is pleased with me, then the paradise that awaits me is so luxurious that the life on earth will be so terrible in comparison it will seem like a prison. If you disbelieve, then even if life on earth is terrible, Jahannum will be so much worse.</li>
+<li>A believer is in a prison because he is not free to do what he wants. Prison has a warden, you sleep when you are told, eat what you are told to eat, do what you are told to do. Every aspect of life is controlled. Life outside the prison is free — a kafir can do whatever, nothing will stop him because he does not believe in the consequences and accountability in the eyes of Allah ﷻ.</li>
+</ol>
+</div>
+</div>
+<div id="حديث-١١" class="section level3" number="3.2.12">
+<h3><span class="header-section-number">3.2.12</span> حديث ١١</h3>
+<div id="حديث-10" class="section level4" number="3.2.12.1">
+<h4><span class="header-section-number">3.2.12.1</span> حديث</h4>
+<blockquote>
+<p>اليد العليا خير من اليد السفلى</p>
+</blockquote>
+<blockquote>
+<p>The upper [giving] hand is superior to the lower [taking] hand (<em>Bukhari, Muslim</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-10" class="section level4" number="3.2.12.2">
+<h4><span class="header-section-number">3.2.12.2</span> الخلاصة لخطبة المفتي</h4>
+<p>Giving is much better than taking. If bringing a gift for an elder, it should be given with the hand under the gift.<br />
+When giving, do not mention the favors you have done for them; do not count favors. Do not give something then start saying stuff like, “Remember how I gave you this this time and that that time.”</p>
+</div>
+</div>
+<div id="حديث-11" class="section level3" number="3.2.13">
+<h3><span class="header-section-number">3.2.13</span> حديث</h3>
+<div id="حديث-12" class="section level4" number="3.2.13.1">
+<h4><span class="header-section-number">3.2.13.1</span> حديث</h4>
+<blockquote>
+
+</blockquote>
+<blockquote>
+
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-11" class="section level4" number="3.2.13.2">
+<h4><span class="header-section-number">3.2.13.2</span> الخلاصة لخطبة المفتي</h4>
+</div>
+</div>
+<div id="حديث-١٣" class="section level3" number="3.2.14">
+<h3><span class="header-section-number">3.2.14</span> حديث ١٣</h3>
+<div id="حديث-13" class="section level4" number="3.2.14.1">
+<h4><span class="header-section-number">3.2.14.1</span> حديث</h4>
+<blockquote>
+<p>الجرس مزامير الشيطان</p>
+</blockquote>
+<blockquote>
+<p>Bells are the flutes of Satan (<em>Muslim</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-12" class="section level4" number="3.2.14.2">
+<h4><span class="header-section-number">3.2.14.2</span> الخلاصة لخطبة المفتي</h4>
+<p>Some South African car jackers were interviewed once, “How do you commit such atrocious murders and evil deeds?” They said we take drugs. It alters their mind, which enables them to do extremely evil action.<br />
+When the Saudi government conspired to kill Jamal Kashari, they set up an elaborate plan to remove accountability. In the end, the murderer was identified, and when he was asked how he could do something so atrocious as sawing off the limbs of Jamal as he died, he said “I just put music on and zoned out, and did my job.”</p>
+<p>When Rasulullah ﷺ would recite Quran, people would say this is so beautiful it could not have been written by a man but a greater being. Music is so evil, it is like it is written by the devil himself.</p>
+</div>
+</div>
+<div id="حديث-١٤" class="section level3" number="3.2.15">
+<h3><span class="header-section-number">3.2.15</span> حديث ١٤</h3>
+<div id="حديث-14" class="section level4" number="3.2.15.1">
+<h4><span class="header-section-number">3.2.15.1</span> حديث</h4>
+<blockquote>
+<p>الطعام الشاكر كالصائم الصابر</p>
+</blockquote>
+<blockquote>
+<p>The one who eats and is thankful is like the one who fasts and is patient (<em>Tirmidhi, Darimi</em>)</p>
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-13" class="section level4" number="3.2.15.2">
+<h4><span class="header-section-number">3.2.15.2</span> الخلاصة لخطبة المفتي</h4>
+<p>Do not feel guilty for having material things, instead do shukr. Do not feel envious for not having material things, instead be patient.</p>
+<ul>
+<li>فتنة السراء fitnah of سرور, happiness</li>
+<li>فتنة الضراء fitnah of difficulty</li>
+</ul>
+<p>One day, Umarؓ comes to the masjid and he sees wealth, gems and gold reaching the roof of the masjid. A sahabi sees him and says are you not happy? Umarؓ responds, “No, I am really worried I cannot imagine this wealth is good for us. I cannot imagine this wealth is good if it was given while I am Khalifa and not in the time of the Khilafa of Abu Bakrؓ. I cannot imagine it is good if it was given to us and not during the time of Rasulullah ﷺ.”</p>
+<p>Perhaps the good we are given in this world, should we not be grateful for it, will only take away what reward we would have gotten in the Akhirah. In surah Ahqaf ayah 20, Allah ﷻ says:</p>
+<blockquote>
+<p>وَيَوْمَ يُعْرَضُ ٱلَّذِينَ كَفَرُوا۟ عَلَى ٱلنَّارِ أَذْهَبْتُمْ طَيِّبَـٰتِكُمْ فِى حَيَاتِكُمُ ٱلدُّنْيَا وَٱسْتَمْتَعْتُم بِهَا فَٱلْيَوْمَ تُجْزَوْنَ عَذَابَ ٱلْهُونِ بِمَا كُنتُمْ تَسْتَكْبِرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَبِمَا كُنتُمْ تَفْسُقُونَ</p>
+</blockquote>
+<blockquote>
+<p>And the day the disbelievers will be presented before the Fire, (it will be said to them,) “You have consumed your good things in your worldly life, and have enjoyed them. So, you will be punished today with the torment of humiliation for the arrogance you used to show on earth with no right (to do so), and for the sins you used to commit.<br />
+Mufti Taqi Usmani</p>
+</blockquote>
+<p>Rasulullah ﷺ said, ‘I am not worried about poverty, I am worried about wealth (referring to the Ummah) because people will compete in amassing wealth.’</p>
+<p>We sympathize with everyone besides ourselves because they are dealing with death, poverty, and destruction, but we don’t realize the test given to us is just as difficult.</p>
+</div>
+</div>
+<div id="حديث-15" class="section level3" number="3.2.16">
+<h3><span class="header-section-number">3.2.16</span> حديث</h3>
+<div id="حديث-16" class="section level4" number="3.2.16.1">
+<h4><span class="header-section-number">3.2.16.1</span> حديث</h4>
+<blockquote>
+
+</blockquote>
+<blockquote>
+
+</blockquote>
+</div>
+<div id="الخلاصة-لخطبة-المفتي-14" class="section level4" number="3.2.16.2">
+<h4><span class="header-section-number">3.2.16.2</span> الخلاصة لخطبة المفتي</h4>
+
+</div>
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bundelkhand" class="csl-entry">
+<span>“Hazrat Maulana Mohammad Sayed Siddique Ahmad Bandwi.”</span> 2011. <em>Bundelkhand Research Portal</em>. <a href="https://bundelkhand.in/personality/hazrat-sayed-siddique-ahmad-bandwi-founder-jamia-arabia-hathaura-university-banda">https://bundelkhand.in/personality/hazrat-sayed-siddique-ahmad-bandwi-founder-jamia-arabia-hathaura-university-banda</a>.
 </div>
 </div>
             </section>
@@ -213,7 +753,6 @@ It takes time to learn and memorize, and there will be times where it seems diff
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -254,7 +793,7 @@ gitbook.start({
 },
 "download": ["https://github.com/yoyomanzoor/takrar/raw/master/05-tarbiyya.Rmd"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

@@ -18,7 +18,7 @@ rmd_files:
   # - 12-fiqh.Rmd
   # - 13-contemporary-fiqh.Rmd
   # - 08-tajweed.Rmd
-  # - 09-seerah.Rmd
+  - 09-seerah.Rmd
   - 10-references.Rmd
   - 11-appendix.Rmd
   # html:

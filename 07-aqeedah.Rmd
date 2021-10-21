@@ -123,7 +123,7 @@ What are the sources of knowledge (click on them for more information)?
 - <details><summary>true reports and mass testimony</summary>Personally, I have never been to Pakistan, even though my father is from Karachi. If I were to say, I have never seen, smelled, felt Pakistan, so I refuse to believe it exists, I would be declared insane. Mass testimony is when so many people can verify the truth of something that to challenge it or ignore it is tantamount to insanity.<br>Part of mass testimony is that it requires either a lot of people to verify it or an extremely reliable source to become a valid source of knowledge. If a Christian comes up to you and says 'I say Jesus in a dream, telling me to tell you you must become a Christian.' Would you believe him? And why would you not? Because his dream is anecdotal, and a source of personal knowledge for him, but has no bearing on you or the masses.</details>
 - <details><summary>Revelation</summary>This is knowledge gained through _wahi_.</details>
 
-#### Rational arguments
+#### Rational arguments{#rat}
 
 To begin any kind of debate, it is necessary to establish مسلّامات, or mutually agreed on principles. Otherwise, no discussion can occur.
 
@@ -234,7 +234,22 @@ NOTE TO SELF: FINISH TYPING THIS
 
 <!-- , and infinity times any positive constant besides 0 equals infinity. Infinity times 0 is undefined. So what is infinity times an infinitely small number? It depends on the type of infinity. In this case,  -->
 
-### Attributes of the uncaused cause
+### Attributes of the creation
 
+> أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَـٰلِقُونَ  
+> أَمْ خَلَقُوا۟ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ  
+> Surah Tur 35-36  
 
+> Is it that they are created by none, or are they themselves the creators?  
+> Or have they created the heavens and the earth? No, but they are sure of nothing.  
+> Mufti Taqi Usmani
 
+Where does creation come from? Let's us an analogy. Suppose there's a water bottle standing upright in the middle of the Masjid. How did the water bottle get there?
+
+4 possibilities:
+
+1. created by nothing
+
+Did the water bottle come there from nothing? We could argue that scientifically this voids the law of conservation of mass, but as in many attempts to apply science to philosophy, this would fail (are we dealing with an open system or a closed system? That's a can of worms not worth entertaining.). More simply, logically this does not make sense. How could a 
+
+- <details><summary>summary</summary>details here.</details>

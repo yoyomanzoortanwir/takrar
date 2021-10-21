@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 4 عقيدة | Takrar</title>
   <meta name="description" content="A collection of notes taken from tanwir classes" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 4 عقيدة | Takrar" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,9 @@
   <link rel="shortcut icon" href="images/favicon_io/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="tarbiyya.html"/>
 <link rel="next" href="history.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,7 +50,6 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
@@ -56,9 +57,32 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="style2.css" type="text/css" />
+<link rel="stylesheet" href="timeline.css" type="text/css" />
 </head>
 
 <body>
@@ -74,29 +98,118 @@
 <li><a href="./">Takrar</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#intent"><i class="fa fa-check"></i><b>1.1</b> Intentions</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#seeking-knowledge"><i class="fa fa-check"></i><b>1.2</b> Seeking knowledge</a></li>
 </ul></li>
 <li class="part"><span><b>I دروس العربي</b></span></li>
-<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a><ul>
+<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="conversation.html"><a href="conversation.html#jobs"><i class="fa fa-check"></i><b>2.1</b> الأسماء الأعمال</a></li>
 </ul></li>
 <li class="part"><span><b>II دروس الإسلام</b></span></li>
-<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a><ul>
-<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
-<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.2</b> The concept of فيض</a></li>
-<li class="chapter" data-level="3.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.3</b> Miracles</a></li>
-<li class="chapter" data-level="3.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.4</b> Difficulties in memorizing</a></li>
-<li class="chapter" data-level="3.5" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.5</b> Intentions</a></li>
+<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#فوائد"><i class="fa fa-check"></i><b>3.1</b> فوائد</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
+<li class="chapter" data-level="3.1.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.1.2</b> The concept of فيض</a></li>
+<li class="chapter" data-level="3.1.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.1.3</b> Miracles</a></li>
+<li class="chapter" data-level="3.1.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.1.4</b> Difficulties in memorizing</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a><ul>
-<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a><ul>
+<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#أحاديث"><i class="fa fa-check"></i><b>3.2</b> أحاديث</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.2.1</b> Intentions</a></li>
+<li class="chapter" data-level="3.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١"><i class="fa fa-check"></i><b>3.2.2</b> حديث ١</a>
+<ul>
+<li class="chapter" data-level="3.2.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث"><i class="fa fa-check"></i><b>3.2.2.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لزاد-الطالبين"><i class="fa fa-check"></i><b>3.2.2.2</b> الخلاصة لزاد الطالبين</a></li>
+<li class="chapter" data-level="3.2.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي"><i class="fa fa-check"></i><b>3.2.2.3</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٢"><i class="fa fa-check"></i><b>3.2.3</b> حديث ٢</a>
+<ul>
+<li class="chapter" data-level="3.2.3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-1"><i class="fa fa-check"></i><b>3.2.3.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-1"><i class="fa fa-check"></i><b>3.2.3.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.4" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٣"><i class="fa fa-check"></i><b>3.2.4</b> حديث ٣</a>
+<ul>
+<li class="chapter" data-level="3.2.4.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-2"><i class="fa fa-check"></i><b>3.2.4.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.4.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-2"><i class="fa fa-check"></i><b>3.2.4.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.5" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٤"><i class="fa fa-check"></i><b>3.2.5</b> حديث ٤</a>
+<ul>
+<li class="chapter" data-level="3.2.5.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-3"><i class="fa fa-check"></i><b>3.2.5.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.5.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-3"><i class="fa fa-check"></i><b>3.2.5.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.6" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٥"><i class="fa fa-check"></i><b>3.2.6</b> حديث ٥</a>
+<ul>
+<li class="chapter" data-level="3.2.6.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-4"><i class="fa fa-check"></i><b>3.2.6.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.6.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-4"><i class="fa fa-check"></i><b>3.2.6.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.7" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٦"><i class="fa fa-check"></i><b>3.2.7</b> حديث ٦</a>
+<ul>
+<li class="chapter" data-level="3.2.7.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-5"><i class="fa fa-check"></i><b>3.2.7.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.7.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-5"><i class="fa fa-check"></i><b>3.2.7.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.8" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٧"><i class="fa fa-check"></i><b>3.2.8</b> حديث ٧</a>
+<ul>
+<li class="chapter" data-level="3.2.8.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-6"><i class="fa fa-check"></i><b>3.2.8.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.8.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-6"><i class="fa fa-check"></i><b>3.2.8.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.9" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٨"><i class="fa fa-check"></i><b>3.2.9</b> حديث ٨</a>
+<ul>
+<li class="chapter" data-level="3.2.9.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-7"><i class="fa fa-check"></i><b>3.2.9.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.9.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-7"><i class="fa fa-check"></i><b>3.2.9.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.10" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٩"><i class="fa fa-check"></i><b>3.2.10</b> حديث ٩</a>
+<ul>
+<li class="chapter" data-level="3.2.10.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-8"><i class="fa fa-check"></i><b>3.2.10.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.10.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-8"><i class="fa fa-check"></i><b>3.2.10.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.11" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٠"><i class="fa fa-check"></i><b>3.2.11</b> حديث ١٠</a>
+<ul>
+<li class="chapter" data-level="3.2.11.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-9"><i class="fa fa-check"></i><b>3.2.11.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.11.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-9"><i class="fa fa-check"></i><b>3.2.11.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.12" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١١"><i class="fa fa-check"></i><b>3.2.12</b> حديث ١١</a>
+<ul>
+<li class="chapter" data-level="3.2.12.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-10"><i class="fa fa-check"></i><b>3.2.12.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.12.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-10"><i class="fa fa-check"></i><b>3.2.12.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.13" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-11"><i class="fa fa-check"></i><b>3.2.13</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.13.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-12"><i class="fa fa-check"></i><b>3.2.13.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.13.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-11"><i class="fa fa-check"></i><b>3.2.13.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.14" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٣"><i class="fa fa-check"></i><b>3.2.14</b> حديث ١٣</a>
+<ul>
+<li class="chapter" data-level="3.2.14.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-13"><i class="fa fa-check"></i><b>3.2.14.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.14.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-12"><i class="fa fa-check"></i><b>3.2.14.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.15" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٤"><i class="fa fa-check"></i><b>3.2.15</b> حديث ١٤</a>
+<ul>
+<li class="chapter" data-level="3.2.15.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-14"><i class="fa fa-check"></i><b>3.2.15.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.15.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-13"><i class="fa fa-check"></i><b>3.2.15.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.16" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-15"><i class="fa fa-check"></i><b>3.2.16</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.16.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-16"><i class="fa fa-check"></i><b>3.2.16.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.16.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-14"><i class="fa fa-check"></i><b>3.2.16.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-عقيدة"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to عقيدة</a></li>
-<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a><ul>
+<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a>
+<ul>
 <li class="chapter" data-level="4.1.2.1" data-path="aqeedah.html"><a href="aqeedah.html#silly-syllogisms"><i class="fa fa-check"></i><b>4.1.2.1</b> Silly syllogisms</a></li>
 </ul></li>
-<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a><ul>
+<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a>
+<ul>
 <li class="chapter" data-level="4.1.3.1" data-path="aqeedah.html"><a href="aqeedah.html#definitions"><i class="fa fa-check"></i><b>4.1.3.1</b> Definitions</a></li>
 <li class="chapter" data-level="4.1.3.2" data-path="aqeedah.html"><a href="aqeedah.html#اهل-السنة-vs-اهل-القبلة"><i class="fa fa-check"></i><b>4.1.3.2</b> اهل السنة vs اهل القبلة</a></li>
 </ul></li>
@@ -104,22 +217,31 @@
 <li class="chapter" data-level="4.1.5" data-path="aqeedah.html"><a href="aqeedah.html#mutazilah"><i class="fa fa-check"></i><b>4.1.5</b> <em>Mu’tazilah</em></a></li>
 <li class="chapter" data-level="4.1.6" data-path="aqeedah.html"><a href="aqeedah.html#codification-of-علم-الكلام"><i class="fa fa-check"></i><b>4.1.6</b> Codification of علم الكلام</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a><ul>
-<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a><ul>
+<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a>
+<ul>
 <li class="chapter" data-level="4.2.1.1" data-path="aqeedah.html"><a href="aqeedah.html#definition"><i class="fa fa-check"></i><b>4.2.1.1</b> Definition</a></li>
-<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rational-arguments"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
+<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rat"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-1"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument</a><ul>
+<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-kca"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument (KCA)</a>
+<ul>
 <li class="chapter" data-level="4.2.2.1" data-path="aqeedah.html"><a href="aqeedah.html#premise-a"><i class="fa fa-check"></i><b>4.2.2.1</b> Premise A</a></li>
 <li class="chapter" data-level="4.2.2.2" data-path="aqeedah.html"><a href="aqeedah.html#premise-b"><i class="fa fa-check"></i><b>4.2.2.2</b> Premise B</a></li>
+<li class="chapter" data-level="4.2.2.3" data-path="aqeedah.html"><a href="aqeedah.html#conclusion-of-kca"><i class="fa fa-check"></i><b>4.2.2.3</b> Conclusion of KCA</a></li>
+<li class="chapter" data-level="4.2.2.4" data-path="aqeedah.html"><a href="aqeedah.html#tasalsul"><i class="fa fa-check"></i><b>4.2.2.4</b> Tasalsul</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2.3" data-path="aqeedah.html"><a href="aqeedah.html#attributes-of-the-creation"><i class="fa fa-check"></i><b>4.2.3</b> Attributes of the creation</a></li>
 </ul></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a><ul>
-<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a><ul>
+<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="history.html"><a href="history.html#election-of-the-khilafa"><i class="fa fa-check"></i><b>5.1.1</b> Election of the Khilafa</a></li>
 <li class="chapter" data-level="5.1.2" data-path="history.html"><a href="history.html#the-apostates"><i class="fa fa-check"></i><b>5.1.2</b> The apostates</a></li>
-<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a><ul>
+<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a>
+<ul>
 <li class="chapter" data-level="5.1.3.1" data-path="history.html"><a href="history.html#the-byzantines"><i class="fa fa-check"></i><b>5.1.3.1</b> The Byzantines</a></li>
 <li class="chapter" data-level="5.1.3.2" data-path="history.html"><a href="history.html#battle-for-medina"><i class="fa fa-check"></i><b>5.1.3.2</b> Battle for Medina</a></li>
 <li class="chapter" data-level="5.1.3.3" data-path="history.html"><a href="history.html#skirmishes-throughout-hijaz"><i class="fa fa-check"></i><b>5.1.3.3</b> Skirmishes throughout <em>hijaz</em></a></li>
@@ -127,9 +249,37 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="history.html"><a href="history.html#عمر"><i class="fa fa-check"></i><b>5.2</b> عمرؓ</a></li>
 </ul></li>
+<li class="chapter" data-level="6" data-path="seerah.html"><a href="seerah.html"><i class="fa fa-check"></i><b>6</b> سيرة</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="seerah.html"><a href="seerah.html#اهل-الرسول-ﷺ"><i class="fa fa-check"></i><b>6.1</b> اهل الرسول ﷺ</a></li>
+<li class="chapter" data-level="6.2" data-path="seerah.html"><a href="seerah.html#chapter-7"><i class="fa fa-check"></i><b>6.2</b> Chapter 7</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="seerah.html"><a href="seerah.html#the-beginning-of-islam-amongst-the-ansar"><i class="fa fa-check"></i><b>6.2.1</b> The beginning of Islam amongst the Ansar</a></li>
+<li class="chapter" data-level="6.2.2" data-path="seerah.html"><a href="seerah.html#first-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.2</b> First pledge of ’Aqabah</a>
+<ul>
+<li class="chapter" data-level="6.2.2.1" data-path="seerah.html"><a href="seerah.html#the-reason-for-the-ansars-acceptance-of-islam"><i class="fa fa-check"></i><b>6.2.2.1</b> The reason for the Ansar’s acceptance of Islam</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2.3" data-path="seerah.html"><a href="seerah.html#strategic-importance-of-madinah"><i class="fa fa-check"></i><b>6.2.3</b> Strategic importance of Madinah</a></li>
+<li class="chapter" data-level="6.2.4" data-path="seerah.html"><a href="seerah.html#expansion-of-islam-in-madinah"><i class="fa fa-check"></i><b>6.2.4</b> Expansion of Islam in Madinah</a></li>
+<li class="chapter" data-level="6.2.5" data-path="seerah.html"><a href="seerah.html#second-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.5</b> Second pledge of ’Aqabah</a></li>
+<li class="chapter" data-level="6.2.6" data-path="seerah.html"><a href="seerah.html#permission-to-migrate-to-madinah"><i class="fa fa-check"></i><b>6.2.6</b> Permission to migrate to Madinah</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="seerah.html"><a href="seerah.html#chapter-8"><i class="fa fa-check"></i><b>6.3</b> Chapter 8</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="seerah.html"><a href="seerah.html#the-jews-of-madinah"><i class="fa fa-check"></i><b>6.3.1</b> The Jews of Madinah</a>
+<ul>
+<li class="chapter" data-level="6.3.1.1" data-path="seerah.html"><a href="seerah.html#religious-affairs-of-the-jews"><i class="fa fa-check"></i><b>6.3.1.1</b> Religious affairs of the Jews</a></li>
+<li class="chapter" data-level="6.3.1.2" data-path="seerah.html"><a href="seerah.html#finances"><i class="fa fa-check"></i><b>6.3.1.2</b> Finances</a></li>
+<li class="chapter" data-level="6.3.1.3" data-path="seerah.html"><a href="seerah.html#religious-and-cultural-conditions"><i class="fa fa-check"></i><b>6.3.1.3</b> Religious and cultural conditions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3.2" data-path="seerah.html"><a href="seerah.html#the-aws-and-the-khazraj"><i class="fa fa-check"></i><b>6.3.2</b> The Aws and the Khazraj</a></li>
+<li class="chapter" data-level="6.3.3" data-path="seerah.html"><a href="seerah.html#physical-and-geographical-conditions"><i class="fa fa-check"></i><b>6.3.3</b> Physical and geographical conditions</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a><ul>
+<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a>
+<ul>
 <li class="chapter" data-level="A.1" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف"><i class="fa fa-check"></i><b>A.1</b> فعل ماضي معروف</a></li>
 <li class="chapter" data-level="A.2" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف-1"><i class="fa fa-check"></i><b>A.2</b> فعل ماضي معروف</a></li>
 </ul></li>
@@ -153,11 +303,11 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="aqeedah" class="section level1">
+<div id="aqeedah" class="section level1" number="4">
 <h1><span class="header-section-number">Section 4</span> عقيدة</h1>
-<div id="introduction-to-علم-الكلام" class="section level2">
+<div id="introduction-to-علم-الكلام" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Introduction to علم الكلام</h2>
-<div id="introduction-to-عقيدة" class="section level3">
+<div id="introduction-to-عقيدة" class="section level3" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Introduction to عقيدة</h3>
 <blockquote>
 <p><strong>عقيدة</strong><br />
@@ -170,7 +320,7 @@ Theology; the basic tenets of Islam; beliefs required to have <em>iman</em>.</p>
 </blockquote>
 <p>علم الكلام was not a science created during the time of the Prophet ﷺ. It was developed in the centuries following early Islam and continues to today as a science that rationally grounds us in our beliefs and simultaneously helps remove doubts.</p>
 </div>
-<div id="syllogism" class="section level3">
+<div id="syllogism" class="section level3" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Syllogisms and rational arguments</h3>
 <p>What is a rational argument? A rational argument is an argument that employs logic to infer a conclusion given specific assumptions.</p>
 <p>An example of a rational argument is a <em>syllogism</em>, which begins with an overarching premise to determine properties of something specific. A syllogism is composed of three statements: two premises, which are assumed to be true and share a common term, and an inference that logically arises. In this way, by comparing observations greater statements can be made. For example,</p>
@@ -186,7 +336,7 @@ Theology; the basic tenets of Islam; beliefs required to have <em>iman</em>.</p>
 <li>The universe exists</li>
 <li>The universe has a cause for its existence</li>
 </ol>
-<div id="silly-syllogisms" class="section level4">
+<div id="silly-syllogisms" class="section level4" number="4.1.2.1">
 <h4><span class="header-section-number">4.1.2.1</span> Silly syllogisms</h4>
 <p>Syllogisms must be <em>valid</em> and <em>sound</em>. To be valid, the syllogism must have the proper format (i.e., 3 clauses, as well as certain logic applied in each clause that is beyond the scope of these notes). To be sound, the statements must be valid <em>and</em> the clauses must actually be true. When syllogisms are not sound, there are some interesting results:</p>
 <ol style="list-style-type: decimal">
@@ -198,9 +348,9 @@ Theology; the basic tenets of Islam; beliefs required to have <em>iman</em>.</p>
 <p>For more silly syllogisms, <a href="http://krypton.mnsu.edu/~jp5985fj/courses/609/Logic/Silly%20Syllogisms.htm">click here</a>.</p>
 </div>
 </div>
-<div id="بدعة" class="section level3">
+<div id="بدعة" class="section level3" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> بدعة</h3>
-<div id="definitions" class="section level4">
+<div id="definitions" class="section level4" number="4.1.3.1">
 <h4><span class="header-section-number">4.1.3.1</span> Definitions</h4>
 <blockquote>
 <p><strong>بدعة</strong><br />
@@ -212,26 +362,26 @@ Theology; the basic tenets of Islam; beliefs required to have <em>iman</em>.</p>
 <strong>بدعة إعتقادية</strong> theological innovations. For example, denying man’s free will.</p>
 </blockquote>
 </div>
-<div id="اهل-السنة-vs-اهل-القبلة" class="section level4">
+<div id="اهل-السنة-vs-اهل-القبلة" class="section level4" number="4.1.3.2">
 <h4><span class="header-section-number">4.1.3.2</span> اهل السنة vs اهل القبلة</h4>
 <p>اهل السنة are the mainstream, sunni orthodox Muslims. اهل القبلة are those that are within the fold of Islam, but not considered Orthodox Sunni.<br />
 Generally speaking, بدعة إعتقادية is more likely to cause one to leave the fold of <em>Ah -as-Sunnah wal-Jama’a</em> and <em>Ahl al-Qiblah</em>, but there are egregious بدعة عملية that will also cause one to leave <em>Ahl as-Sunnah</em> and <em>Ahl al-Qiblah</em> (for example, praying 4 rakat for <em>Maghrib</em>).</p>
 </div>
 </div>
-<div id="the-origin-of-علم-الكلام" class="section level3">
+<div id="the-origin-of-علم-الكلام" class="section level3" number="4.1.4">
 <h3><span class="header-section-number">4.1.4</span> The origin of علم الكلام</h3>
-<p>Islam began in <em>hijaz</em>, a vast expanse of land sparsely occupied by nomads. Compared to the extremely wealthy nations surrounding the peninsula (<a href="#seerah">see Seerah for more info</a>), <em>hijaz</em> was relatively lacking in diverse philosophical ideologies. This is because the mixing of culture (and, through necessity, ideology) and subsequent diversity in culture requires frequent interaction with cultures disparate from one’s own, but for centuries the Arabs lived alone and untouched, without war or wealth to stimulate cross-cultural dialogue.</p>
+<p>Islam began in <em>hijaz</em>, a vast expanse of land sparsely occupied by nomads. Compared to the extremely wealthy nations surrounding the peninsula (<a href="seerah.html#seerah">see Seerah for more info</a>), <em>hijaz</em> was relatively lacking in diverse philosophical ideologies. This is because the mixing of culture (and, through necessity, ideology) and subsequent diversity in culture requires frequent interaction with cultures disparate from one’s own, but for centuries the Arabs lived alone and untouched, without war or wealth to stimulate cross-cultural dialogue.</p>
 <p>This was the setting in which Islam was revealed, and it was not until the time of the Khalifa of Umar ibn al-Khattab ؓ that the Muslims began deeply interacting with other cultures as lands were conquered. The codification of علم الكلام truly began when <em>bayt al-hikmah</em> was established in Baghdad in 200 AH, and Greek works in logic, geometry, medicine, and philosophy were translated into Arabic.</p>
 <p>The inculcation of useful methods from philosophies yet unknown to the Muslims (and leaving that which is harmful from the associated cultures) is cornerstone to how غلم الكلام functions — by taking methods such as <a href="aqeedah.html#syllogism">syllogisms</a> from other cultures (in this case, the Greeks) and effectively applying them to further deepen and (rationally) ground the tenets of Aqeedah.</p>
 <p>However, it is always critical to remember that the inculcation of new ideas to further seek understanding in Islam and Aqeedah must be done properly — the improper understanding and application of rational thought can easily lend itself to <em>bid’ah i’tiqaliyyah</em>, as we see in the <a href="aqeedah.html#mutazilah">Mu’tazilah</a>.</p>
 </div>
-<div id="mutazilah" class="section level3">
+<div id="mutazilah" class="section level3" number="4.1.5">
 <h3><span class="header-section-number">4.1.5</span> <em>Mu’tazilah</em></h3>
 <p>These are a group of people that took Hellenistic (Greek) arguments and incorporated them into Aqeedah. The were theological rationalist, they gave preference to rationality (غقل) over text (نقل). Through their effective oratory and debating skills, they became close to the Abbasid Caliphates who are convinced by their arguments and adopt their ideas. The Caliphs begin to enforce <em>Mu’tazilah</em> creed on the Muslims and began an inquisition. They would ask a question, “Is the Qur’an created or not created?” Many ’Ulama were persecuted, including Imam Ahmed bin Hanbal. Imam Ahmed ؒ stood firm against the <em>Mu’tazilah</em>, despite being whipped and thrown in jail. In fact, one time while he was being whipped a theif passed by and says “I was whipped, yet I would still steal. You are being whipped for telling the truth, so persevere.”</p>
 <p>This inquisition lasted for 15 years, and was ended by Caliph Mutawakkil. Mutawakkil was a huge fan of Imam Ahmed ؒ, and freed him from jail. The <em>Mu’tazili</em> influence ends at this time (around 228 هـ), but it remains in some intellectual circles. They are considered outside of <em>Ahl as-Sunnah</em>, but are still <em>Ahl al-Qiblah</em>.</p>
 <p>It was not much later that <strong>Imam Abu al-Hasan ’Ali al-Ash’ari</strong> (d.324 هـ) and <strong>Imam Abu Mansur Muhammad al-Maturidi</strong> (d.332 هـ) would revolutionize علم الكلام. They paved the path for how rationality <em>and</em> Islamic text should work together, and their approaches complimented each other.</p>
 </div>
-<div id="codification-of-علم-الكلام" class="section level3">
+<div id="codification-of-علم-الكلام" class="section level3" number="4.1.6">
 <h3><span class="header-section-number">4.1.6</span> Codification of علم الكلام</h3>
 <div style="display: flex;">
 <div>
@@ -258,11 +408,11 @@ Figure 4.1: Imam Hanifa was from Kufa, Iraq.
 Abu Mansur al-Maturidi takes all the books of Imam Abu Hanifa and compiles it. He rationalizes a lot of it and defends it against the erroneous beliefs of the time. And thus, we see how both precedence and علم الكلام work hand in hand in our tradition. Aqeedah is delineated by Imam Abu Hanifa, Imam Maturidi explicates it, and in the generations and generations following ’Ulama continue to rationalize and defend it.</p>
 </div>
 </div>
-<div id="the-kalam-cosmological-argument" class="section level2">
+<div id="the-kalam-cosmological-argument" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> The Kalam Cosmological Argument</h2>
-<div id="epistemology" class="section level3">
+<div id="epistemology" class="section level3" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Epistemology</h3>
-<div id="definition" class="section level4">
+<div id="definition" class="section level4" number="4.2.1.1">
 <h4><span class="header-section-number">4.2.1.1</span> Definition</h4>
 <blockquote>
 <p><strong>epistemology</strong> the study of knowledge; how you know what you know</p>
@@ -270,20 +420,32 @@ Abu Mansur al-Maturidi takes all the books of Imam Abu Hanifa and compiles it. H
 <p>What are the sources of knowledge (click on them for more information)?</p>
 <ul>
 <li><details>
-<summary>sensory perception</summary>To touch, hear, see, etc. Basically, knowledge that you can gain with any of your senses directly. For example, if I see a person, I have gains knowledge of the person’s existence and some knowledge about how they look.
+<summary>
+sensory perception
+</summary>
+To touch, hear, see, etc. Basically, knowledge that you can gain with any of your senses directly. For example, if I see a person, I have gains knowledge of the person’s existence and some knowledge about how they look.
 </details></li>
 <li><details>
-<summary>intellect</summary>Knowledge gained through some sort of rational inference. Usually, this is through proxy of a sense of some sort, but could also be combined with other sources of knowledge. For example, if I hear someone knocking behind a door, but I never see the person, I can infer from the knocking that there is indeed a person present. If I see smoke rising behind a hill, but I see no fire, I can infer that there is a fire behind the hill generating the smoke.
+<summary>
+intellect
+</summary>
+Knowledge gained through some sort of rational inference. Usually, this is through proxy of a sense of some sort, but could also be combined with other sources of knowledge. For example, if I hear someone knocking behind a door, but I never see the person, I can infer from the knocking that there is indeed a person present. If I see smoke rising behind a hill, but I see no fire, I can infer that there is a fire behind the hill generating the smoke.
 </details></li>
 <li><details>
-<summary>true reports and mass testimony</summary>Personally, I have never been to Pakistan, even though my father is from Karachi. If I were to say, I have never seen, smelled, felt Pakistan, so I refuse to believe it exists, I would be declared insane. Mass testimony is when so many people can verify the truth of something that to challenge it or ignore it is tantamount to insanity.<br>Part of mass testimony is that it requires either a lot of people to verify it or an extremely reliable source to become a valid source of knowledge. If a Christian comes up to you and says ‘I say Jesus in a dream, telling me to tell you you must become a Christian.’ Would you believe him? And why would you not? Because his dream is anecdotal, and a source of personal knowledge for him, but has no bearing on you or the masses.
+<summary>
+true reports and mass testimony
+</summary>
+Personally, I have never been to Pakistan, even though my father is from Karachi. If I were to say, I have never seen, smelled, felt Pakistan, so I refuse to believe it exists, I would be declared insane. Mass testimony is when so many people can verify the truth of something that to challenge it or ignore it is tantamount to insanity.<br>Part of mass testimony is that it requires either a lot of people to verify it or an extremely reliable source to become a valid source of knowledge. If a Christian comes up to you and says ‘I say Jesus in a dream, telling me to tell you you must become a Christian.’ Would you believe him? And why would you not? Because his dream is anecdotal, and a source of personal knowledge for him, but has no bearing on you or the masses.
 </details></li>
 <li><details>
-<summary>Revelation</summary>This is knowledge gained through <em>wahi</em>.
+<summary>
+Revelation
+</summary>
+This is knowledge gained through <em>wahi</em>.
 </details></li>
 </ul>
 </div>
-<div id="rational-arguments" class="section level4">
+<div id="rat" class="section level4" number="4.2.1.2">
 <h4><span class="header-section-number">4.2.1.2</span> Rational arguments</h4>
 <p>To begin any kind of debate, it is necessary to establish مسلّامات, or mutually agreed on principles. Otherwise, no discussion can occur.</p>
 <p>Epistemology can be broken into</p>
@@ -301,8 +463,8 @@ Abu Mansur al-Maturidi takes all the books of Imam Abu Hanifa and compiles it. H
 <p>They don’t require proofs. Most of the time, the definition is evidence alone (for example, a triangle is defined as having three sides, thus a triangle must have three sides). If someone argues against them, the burden of proof is on the one arguing.</p>
 </div>
 </div>
-<div id="the-kalam-cosmological-argument-1" class="section level3">
-<h3><span class="header-section-number">4.2.2</span> The Kalam Cosmological Argument</h3>
+<div id="the-kalam-cosmological-argument-kca" class="section level3" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> The Kalam Cosmological Argument (KCA)</h3>
 <p>In the form of a <a href="aqeedah.html#syllogism">syllogism</a>:</p>
 <blockquote>
 <ol style="list-style-type: lower-alpha">
@@ -311,30 +473,40 @@ Abu Mansur al-Maturidi takes all the books of Imam Abu Hanifa and compiles it. H
 <li>The universe must have an uncaused cause</li>
 </ol>
 </blockquote>
-<div id="premise-a" class="section level4">
+<div id="premise-a" class="section level4" number="4.2.2.1">
 <h4><span class="header-section-number">4.2.2.1</span> Premise A</h4>
 <blockquote>
 <p>Whatever begins to exist in this universe must have a cause</p>
 </blockquote>
 <p>This is an intuitive, self-evident truth, and thus this premise is sound. Some atheists may deny this, but to do so ignores basic principles of the universe we hold as self-evident. Everything we experience and know has specific causes that led to its existence, for example these notes were not typed by themselves but had a person (me) writing them out to bring them into existence (through the fadl of Allah ﷻ), and similarly everything else was brought about through a cause (e.g. a person was caused through their mother giving birth to them, a tree was caused by the pollination of another tree, and a fire burns because of the combustion of organic compounds in fuel). To deny this fact is to deny intuition and logic altogether.</p>
 </div>
-<div id="premise-b" class="section level4">
+<div id="premise-b" class="section level4" number="4.2.2.2">
 <h4><span class="header-section-number">4.2.2.2</span> Premise B</h4>
 <blockquote>
 <p>The universe has a beginning</p>
 </blockquote>
-<p>How do we prove the soundness of this premise? There are some scientific explanations regarding the notion of a singularity, such as increasing entropy in the Law of Thermodynamics and observed Doppler shifts in distant galaxies. However, science historically has always fallen short in determining cosmological models, and continuously changes its conclusions. A powerful philosophical argument is <em>tasalsul</em>, or the infinite regress of causes.</p>
-<div id="tasalsul" class="section level5">
-<h5><span class="header-section-number">4.2.2.2.1</span> Tasalsul</h5>
-<div id="a-thought-experiment" class="section level6">
-<h6><span class="header-section-number">4.2.2.2.1.1</span> A thought experiment</h6>
+<p>How do we prove the soundness of this premise? There are some scientific explanations regarding the notion of a singularity, such as increasing entropy in the Law of Thermodynamics and observed Doppler shifts in distant galaxies. However, historically science has always fallen short in determining cosmological models, and continuously changes its conclusions, which is why many scientist do not bother to speculate on cosmology. A more powerful argument is philosophical through <a href="aqeedah.html#tasalsul"><em>tasalsul</em> (see section below)</a>, or the infinite regress of causes. The conclusion of tasulsul is that it is impossible for every cause to have a cause if there is no first cause.</p>
+</div>
+<div id="conclusion-of-kca" class="section level4" number="4.2.2.3">
+<h4><span class="header-section-number">4.2.2.3</span> Conclusion of KCA</h4>
+<blockquote>
+<p>The universe must have an (uncaused) cause</p>
+</blockquote>
+<p>Now that both premises of KCA have been rationally proven as sound arguments, and given that the syllogism is valid (i.e., has proper flow), through deduction the conclusion <em>must</em> be true. In rationalizing premise B, we find the added clause that the original cause must be uncaused, and so while that nuance is not drawn from the premise alone, it is proven in the proof for the premises.</p>
+<p>The conclusion of KCA, and the idea of an uncaused cause, does not alone rationally prove the existence of Allah ﷻ in particular, as it says nothing about the characteristics of the uncaused cause. For example, could the uncaused cause be a chance event? The big bang could be a circumstantial event. Does the uncaused cause still exist? Does it have any power? Does it have a personality, and is it subject to the effects of the causes it caused? Through further rational arguments, Insha-Allah we can deduce these qualities, but the conclusion we have currently arrived to only proves that there is a <em>single</em> uncaused caused. Thus, it rules out an infinite history to the universe. It also rules out the notion of multiple gods existing at the time of creation.</p>
+<p>Interesting to note, other philosphers had reached similar conclusions. Aristotle believed in a ‘prime mover,’ <span class="citation">(<a href="#ref-sep-aristotle-natphil" role="doc-biblioref">Bodnar 2018</a>)</span></p>
+</div>
+<div id="tasalsul" class="section level4" number="4.2.2.4">
+<h4><span class="header-section-number">4.2.2.4</span> Tasalsul</h4>
+<div id="a-thought-experiment" class="section level5" number="4.2.2.4.1">
+<h5><span class="header-section-number">4.2.2.4.1</span> A thought experiment</h5>
 <ol style="list-style-type: decimal">
 <li>Say a soldier has an enemy in sight. However, before he can shoot, he must wait for his commander to give permission. Before his commander can give permission, he must wait for permission from the sergeant. Before the sergeant can give permission, he must wait for permission from the president. This continues for the next person and the next person <em>ad infinitum</em>. The end result, if there are infinite people in line waiting for the previous person to give permission, is that the soldier will never shoot since there is always someone else to get permission from. Will the soldier ever shoot? <em>No</em>.<br>There is a hidden assumption in this argument: that with every request for permission, there is some amount of time needed to receive permission. If the time it takes to get permission is infinitely small, or is 0, then would it become possible for the soldier to shoot? Here we find a conundrum of 0 seconds times infinite permissions, which alone is a contradiction. But, the assumption that causes could happen infinitely fast or in 0 seconds alone is impossible, since intuitively if something has a cause then there is a scale of time. A cause and effect happening at the same moment voids the law of noncontradiction and is an impossibility.</li>
 </ol>
 </div>
-<div id="a-mathematical-proof" class="section level6">
-<h6><span class="header-section-number">4.2.2.2.1.2</span> A mathematical proof</h6>
-<table style='NAborder-bottom: 0; font-family: "Arial Narrow", arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto; font-size: 9px; float: right; margin-left: 10px;' class=" lightable-paper table">
+<div id="a-mathematical-proof" class="section level5" number="4.2.2.4.2">
+<h5><span class="header-section-number">4.2.2.4.2</span> A mathematical proof</h5>
+<table style="NAborder-bottom: 0; font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto; font-size: 9px; float: right; margin-left: 10px;" class=" lightable-paper table">
 <caption style="font-size: initial !important;">
 <span id="tab:sample-data">Table 4.1: </span>
 </caption>
@@ -453,14 +625,46 @@ As <span class="math inline">\(x\)</span> approaches <span class="math inline">\
 \lim_{x\to\infty} f(x) + \lim_{x\to\infty} f(x) + ... = \sum_{n=1}^{\infty} n\lim_{x\to\infty} f(x)
 \tag{4.3}
 \]</span></p>
-<p>At this point, we hit an interesting juncture. <span class="math inline">\(\sum_{n=1}^{\infty}n\)</span> is an infinite series, so what is the sum of an infinitesimal number, summed an infinite number of times?</p>
+<p>At this point, we hit an interesting juncture. For any integer i, <span class="math inline">\(\sum_{i=1}^{\infty}i\)</span> is an infinite series, so what is the sum of an infinitesimal number, summed an infinite number of times?</p>
 <p>NOTE TO SELF: FINISH TYPING THIS</p>
 <!-- , and infinity times any positive constant besides 0 equals infinity. Infinity times 0 is undefined. So what is infinity times an infinitely small number? It depends on the type of infinity. In this case,  -->
+</div>
+</div>
+</div>
+<div id="attributes-of-the-creation" class="section level3" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Attributes of the creation</h3>
+<blockquote>
+<p>أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَـٰلِقُونَ<br />
+أَمْ خَلَقُوا۟ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ<br />
+Surah Tur 35-36</p>
+</blockquote>
+<blockquote>
+<p>Is it that they are created by none, or are they themselves the creators?<br />
+Or have they created the heavens and the earth? No, but they are sure of nothing.<br />
+Mufti Taqi Usmani</p>
+</blockquote>
+<p>Where does creation come from? Let’s us an analogy. Suppose there’s a water bottle standing upright in the middle of the Masjid. How did the water bottle get there?</p>
+<p>4 possibilities:</p>
+<ol style="list-style-type: decimal">
+<li>created by nothing</li>
+</ol>
+<p>Did the water bottle come there from nothing? We could argue that scientifically this voids the law of conservation of mass, but as in many attempts to apply science to philosophy, this would fail (are we dealing with an open system or a closed system? That’s a can of worms not worth entertaining.). More simply, logically this does not make sense. How could a</p>
+<ul>
+<li><details>
+<summary>
+summary
+</summary>
+details here.
+</details></li>
+</ul>
 
 </div>
 </div>
 </div>
-</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-sep-aristotle-natphil" class="csl-entry">
+Bodnar, Istvan. 2018. <span>“<span class="nocase">Aristotle’s Natural Philosophy</span>.”</span> In <em>The <span>Stanford</span> Encyclopedia of Philosophy</em>, edited by Edward N. Zalta, <span>S</span>pring 2018. <a href="https://plato.stanford.edu/archives/spr2018/entries/aristotle-natphil/">https://plato.stanford.edu/archives/spr2018/entries/aristotle-natphil/</a>; Metaphysics Research Lab, Stanford University.
 </div>
 </div>
             </section>
@@ -473,7 +677,6 @@ As <span class="math inline">\(x\)</span> approaches <span class="math inline">\
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -514,7 +717,7 @@ gitbook.start({
 },
 "download": ["https://github.com/yoyomanzoor/takrar/raw/master/07-aqeedah.Rmd"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

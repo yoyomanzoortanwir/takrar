@@ -24,6 +24,7 @@ library(dplyr)
 library(MASS)
 library(knitr)
 library(kableExtra)
+# library(cronologia)
 select <- dplyr::select
 theme_set(theme_pubr())
 ```

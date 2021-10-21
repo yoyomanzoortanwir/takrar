@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 5 التاريخ | Takrar</title>
   <meta name="description" content="A collection of notes taken from tanwir classes" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 5 التاريخ | Takrar" />
   <meta property="og:type" content="book" />
@@ -31,8 +31,10 @@
   
   <link rel="shortcut icon" href="images/favicon_io/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="aqeedah.html"/>
-<link rel="next" href="references.html"/>
+<link rel="next" href="seerah.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,7 +50,6 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
@@ -56,9 +57,32 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="style2.css" type="text/css" />
+<link rel="stylesheet" href="timeline.css" type="text/css" />
 </head>
 
 <body>
@@ -74,29 +98,118 @@
 <li><a href="./">Takrar</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#intent"><i class="fa fa-check"></i><b>1.1</b> Intentions</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#seeking-knowledge"><i class="fa fa-check"></i><b>1.2</b> Seeking knowledge</a></li>
 </ul></li>
 <li class="part"><span><b>I دروس العربي</b></span></li>
-<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a><ul>
+<li class="chapter" data-level="2" data-path="conversation.html"><a href="conversation.html"><i class="fa fa-check"></i><b>2</b> حوار</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="conversation.html"><a href="conversation.html#jobs"><i class="fa fa-check"></i><b>2.1</b> الأسماء الأعمال</a></li>
 </ul></li>
 <li class="part"><span><b>II دروس الإسلام</b></span></li>
-<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a><ul>
-<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
-<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.2</b> The concept of فيض</a></li>
-<li class="chapter" data-level="3.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.3</b> Miracles</a></li>
-<li class="chapter" data-level="3.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.4</b> Difficulties in memorizing</a></li>
-<li class="chapter" data-level="3.5" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.5</b> Intentions</a></li>
+<li class="chapter" data-level="3" data-path="tarbiyya.html"><a href="tarbiyya.html"><i class="fa fa-check"></i><b>3</b> تربيّة</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#فوائد"><i class="fa fa-check"></i><b>3.1</b> فوائد</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="tarbiyya.html"><a href="tarbiyya.html#qari-siddique"><i class="fa fa-check"></i><b>3.1.1</b> Qari Mohammad Sayed Siddique Ahmad Bandwi</a></li>
+<li class="chapter" data-level="3.1.2" data-path="tarbiyya.html"><a href="tarbiyya.html#the-concept-of-فيض"><i class="fa fa-check"></i><b>3.1.2</b> The concept of فيض</a></li>
+<li class="chapter" data-level="3.1.3" data-path="tarbiyya.html"><a href="tarbiyya.html#miracles"><i class="fa fa-check"></i><b>3.1.3</b> Miracles</a></li>
+<li class="chapter" data-level="3.1.4" data-path="tarbiyya.html"><a href="tarbiyya.html#difficulties-in-memorizing"><i class="fa fa-check"></i><b>3.1.4</b> Difficulties in memorizing</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a><ul>
-<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a><ul>
+<li class="chapter" data-level="3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#أحاديث"><i class="fa fa-check"></i><b>3.2</b> أحاديث</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#intentions"><i class="fa fa-check"></i><b>3.2.1</b> Intentions</a></li>
+<li class="chapter" data-level="3.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١"><i class="fa fa-check"></i><b>3.2.2</b> حديث ١</a>
+<ul>
+<li class="chapter" data-level="3.2.2.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث"><i class="fa fa-check"></i><b>3.2.2.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.2.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لزاد-الطالبين"><i class="fa fa-check"></i><b>3.2.2.2</b> الخلاصة لزاد الطالبين</a></li>
+<li class="chapter" data-level="3.2.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي"><i class="fa fa-check"></i><b>3.2.2.3</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.3" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٢"><i class="fa fa-check"></i><b>3.2.3</b> حديث ٢</a>
+<ul>
+<li class="chapter" data-level="3.2.3.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-1"><i class="fa fa-check"></i><b>3.2.3.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.3.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-1"><i class="fa fa-check"></i><b>3.2.3.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.4" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٣"><i class="fa fa-check"></i><b>3.2.4</b> حديث ٣</a>
+<ul>
+<li class="chapter" data-level="3.2.4.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-2"><i class="fa fa-check"></i><b>3.2.4.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.4.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-2"><i class="fa fa-check"></i><b>3.2.4.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.5" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٤"><i class="fa fa-check"></i><b>3.2.5</b> حديث ٤</a>
+<ul>
+<li class="chapter" data-level="3.2.5.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-3"><i class="fa fa-check"></i><b>3.2.5.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.5.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-3"><i class="fa fa-check"></i><b>3.2.5.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.6" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٥"><i class="fa fa-check"></i><b>3.2.6</b> حديث ٥</a>
+<ul>
+<li class="chapter" data-level="3.2.6.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-4"><i class="fa fa-check"></i><b>3.2.6.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.6.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-4"><i class="fa fa-check"></i><b>3.2.6.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.7" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٦"><i class="fa fa-check"></i><b>3.2.7</b> حديث ٦</a>
+<ul>
+<li class="chapter" data-level="3.2.7.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-5"><i class="fa fa-check"></i><b>3.2.7.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.7.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-5"><i class="fa fa-check"></i><b>3.2.7.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.8" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٧"><i class="fa fa-check"></i><b>3.2.8</b> حديث ٧</a>
+<ul>
+<li class="chapter" data-level="3.2.8.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-6"><i class="fa fa-check"></i><b>3.2.8.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.8.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-6"><i class="fa fa-check"></i><b>3.2.8.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.9" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٨"><i class="fa fa-check"></i><b>3.2.9</b> حديث ٨</a>
+<ul>
+<li class="chapter" data-level="3.2.9.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-7"><i class="fa fa-check"></i><b>3.2.9.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.9.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-7"><i class="fa fa-check"></i><b>3.2.9.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.10" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-٩"><i class="fa fa-check"></i><b>3.2.10</b> حديث ٩</a>
+<ul>
+<li class="chapter" data-level="3.2.10.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-8"><i class="fa fa-check"></i><b>3.2.10.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.10.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-8"><i class="fa fa-check"></i><b>3.2.10.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.11" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٠"><i class="fa fa-check"></i><b>3.2.11</b> حديث ١٠</a>
+<ul>
+<li class="chapter" data-level="3.2.11.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-9"><i class="fa fa-check"></i><b>3.2.11.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.11.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-9"><i class="fa fa-check"></i><b>3.2.11.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.12" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١١"><i class="fa fa-check"></i><b>3.2.12</b> حديث ١١</a>
+<ul>
+<li class="chapter" data-level="3.2.12.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-10"><i class="fa fa-check"></i><b>3.2.12.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.12.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-10"><i class="fa fa-check"></i><b>3.2.12.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.13" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-11"><i class="fa fa-check"></i><b>3.2.13</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.13.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-12"><i class="fa fa-check"></i><b>3.2.13.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.13.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-11"><i class="fa fa-check"></i><b>3.2.13.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.14" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٣"><i class="fa fa-check"></i><b>3.2.14</b> حديث ١٣</a>
+<ul>
+<li class="chapter" data-level="3.2.14.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-13"><i class="fa fa-check"></i><b>3.2.14.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.14.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-12"><i class="fa fa-check"></i><b>3.2.14.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.15" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-١٤"><i class="fa fa-check"></i><b>3.2.15</b> حديث ١٤</a>
+<ul>
+<li class="chapter" data-level="3.2.15.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-14"><i class="fa fa-check"></i><b>3.2.15.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.15.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-13"><i class="fa fa-check"></i><b>3.2.15.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2.16" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-15"><i class="fa fa-check"></i><b>3.2.16</b> حديث</a>
+<ul>
+<li class="chapter" data-level="3.2.16.1" data-path="tarbiyya.html"><a href="tarbiyya.html#حديث-16"><i class="fa fa-check"></i><b>3.2.16.1</b> حديث</a></li>
+<li class="chapter" data-level="3.2.16.2" data-path="tarbiyya.html"><a href="tarbiyya.html#الخلاصة-لخطبة-المفتي-14"><i class="fa fa-check"></i><b>3.2.16.2</b> الخلاصة لخطبة المفتي</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aqeedah.html"><a href="aqeedah.html"><i class="fa fa-check"></i><b>4</b> عقيدة</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-علم-الكلام"><i class="fa fa-check"></i><b>4.1</b> Introduction to علم الكلام</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="aqeedah.html"><a href="aqeedah.html#introduction-to-عقيدة"><i class="fa fa-check"></i><b>4.1.1</b> Introduction to عقيدة</a></li>
-<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a><ul>
+<li class="chapter" data-level="4.1.2" data-path="aqeedah.html"><a href="aqeedah.html#syllogism"><i class="fa fa-check"></i><b>4.1.2</b> Syllogisms and rational arguments</a>
+<ul>
 <li class="chapter" data-level="4.1.2.1" data-path="aqeedah.html"><a href="aqeedah.html#silly-syllogisms"><i class="fa fa-check"></i><b>4.1.2.1</b> Silly syllogisms</a></li>
 </ul></li>
-<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a><ul>
+<li class="chapter" data-level="4.1.3" data-path="aqeedah.html"><a href="aqeedah.html#بدعة"><i class="fa fa-check"></i><b>4.1.3</b> بدعة</a>
+<ul>
 <li class="chapter" data-level="4.1.3.1" data-path="aqeedah.html"><a href="aqeedah.html#definitions"><i class="fa fa-check"></i><b>4.1.3.1</b> Definitions</a></li>
 <li class="chapter" data-level="4.1.3.2" data-path="aqeedah.html"><a href="aqeedah.html#اهل-السنة-vs-اهل-القبلة"><i class="fa fa-check"></i><b>4.1.3.2</b> اهل السنة vs اهل القبلة</a></li>
 </ul></li>
@@ -104,22 +217,31 @@
 <li class="chapter" data-level="4.1.5" data-path="aqeedah.html"><a href="aqeedah.html#mutazilah"><i class="fa fa-check"></i><b>4.1.5</b> <em>Mu’tazilah</em></a></li>
 <li class="chapter" data-level="4.1.6" data-path="aqeedah.html"><a href="aqeedah.html#codification-of-علم-الكلام"><i class="fa fa-check"></i><b>4.1.6</b> Codification of علم الكلام</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a><ul>
-<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a><ul>
+<li class="chapter" data-level="4.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument"><i class="fa fa-check"></i><b>4.2</b> The Kalam Cosmological Argument</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="aqeedah.html"><a href="aqeedah.html#epistemology"><i class="fa fa-check"></i><b>4.2.1</b> Epistemology</a>
+<ul>
 <li class="chapter" data-level="4.2.1.1" data-path="aqeedah.html"><a href="aqeedah.html#definition"><i class="fa fa-check"></i><b>4.2.1.1</b> Definition</a></li>
-<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rational-arguments"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
+<li class="chapter" data-level="4.2.1.2" data-path="aqeedah.html"><a href="aqeedah.html#rat"><i class="fa fa-check"></i><b>4.2.1.2</b> Rational arguments</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-1"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument</a><ul>
+<li class="chapter" data-level="4.2.2" data-path="aqeedah.html"><a href="aqeedah.html#the-kalam-cosmological-argument-kca"><i class="fa fa-check"></i><b>4.2.2</b> The Kalam Cosmological Argument (KCA)</a>
+<ul>
 <li class="chapter" data-level="4.2.2.1" data-path="aqeedah.html"><a href="aqeedah.html#premise-a"><i class="fa fa-check"></i><b>4.2.2.1</b> Premise A</a></li>
 <li class="chapter" data-level="4.2.2.2" data-path="aqeedah.html"><a href="aqeedah.html#premise-b"><i class="fa fa-check"></i><b>4.2.2.2</b> Premise B</a></li>
+<li class="chapter" data-level="4.2.2.3" data-path="aqeedah.html"><a href="aqeedah.html#conclusion-of-kca"><i class="fa fa-check"></i><b>4.2.2.3</b> Conclusion of KCA</a></li>
+<li class="chapter" data-level="4.2.2.4" data-path="aqeedah.html"><a href="aqeedah.html#tasalsul"><i class="fa fa-check"></i><b>4.2.2.4</b> Tasalsul</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2.3" data-path="aqeedah.html"><a href="aqeedah.html#attributes-of-the-creation"><i class="fa fa-check"></i><b>4.2.3</b> Attributes of the creation</a></li>
 </ul></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a><ul>
-<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a><ul>
+<li class="chapter" data-level="5" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>5</b> التاريخ</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="history.html"><a href="history.html#أبو-بكر"><i class="fa fa-check"></i><b>5.1</b> أبو بكرؓ</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="history.html"><a href="history.html#election-of-the-khilafa"><i class="fa fa-check"></i><b>5.1.1</b> Election of the Khilafa</a></li>
 <li class="chapter" data-level="5.1.2" data-path="history.html"><a href="history.html#the-apostates"><i class="fa fa-check"></i><b>5.1.2</b> The apostates</a></li>
-<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a><ul>
+<li class="chapter" data-level="5.1.3" data-path="history.html"><a href="history.html#early-battles"><i class="fa fa-check"></i><b>5.1.3</b> Early Battles</a>
+<ul>
 <li class="chapter" data-level="5.1.3.1" data-path="history.html"><a href="history.html#the-byzantines"><i class="fa fa-check"></i><b>5.1.3.1</b> The Byzantines</a></li>
 <li class="chapter" data-level="5.1.3.2" data-path="history.html"><a href="history.html#battle-for-medina"><i class="fa fa-check"></i><b>5.1.3.2</b> Battle for Medina</a></li>
 <li class="chapter" data-level="5.1.3.3" data-path="history.html"><a href="history.html#skirmishes-throughout-hijaz"><i class="fa fa-check"></i><b>5.1.3.3</b> Skirmishes throughout <em>hijaz</em></a></li>
@@ -127,9 +249,37 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="history.html"><a href="history.html#عمر"><i class="fa fa-check"></i><b>5.2</b> عمرؓ</a></li>
 </ul></li>
+<li class="chapter" data-level="6" data-path="seerah.html"><a href="seerah.html"><i class="fa fa-check"></i><b>6</b> سيرة</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="seerah.html"><a href="seerah.html#اهل-الرسول-ﷺ"><i class="fa fa-check"></i><b>6.1</b> اهل الرسول ﷺ</a></li>
+<li class="chapter" data-level="6.2" data-path="seerah.html"><a href="seerah.html#chapter-7"><i class="fa fa-check"></i><b>6.2</b> Chapter 7</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="seerah.html"><a href="seerah.html#the-beginning-of-islam-amongst-the-ansar"><i class="fa fa-check"></i><b>6.2.1</b> The beginning of Islam amongst the Ansar</a></li>
+<li class="chapter" data-level="6.2.2" data-path="seerah.html"><a href="seerah.html#first-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.2</b> First pledge of ’Aqabah</a>
+<ul>
+<li class="chapter" data-level="6.2.2.1" data-path="seerah.html"><a href="seerah.html#the-reason-for-the-ansars-acceptance-of-islam"><i class="fa fa-check"></i><b>6.2.2.1</b> The reason for the Ansar’s acceptance of Islam</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2.3" data-path="seerah.html"><a href="seerah.html#strategic-importance-of-madinah"><i class="fa fa-check"></i><b>6.2.3</b> Strategic importance of Madinah</a></li>
+<li class="chapter" data-level="6.2.4" data-path="seerah.html"><a href="seerah.html#expansion-of-islam-in-madinah"><i class="fa fa-check"></i><b>6.2.4</b> Expansion of Islam in Madinah</a></li>
+<li class="chapter" data-level="6.2.5" data-path="seerah.html"><a href="seerah.html#second-pledge-of-aqabah"><i class="fa fa-check"></i><b>6.2.5</b> Second pledge of ’Aqabah</a></li>
+<li class="chapter" data-level="6.2.6" data-path="seerah.html"><a href="seerah.html#permission-to-migrate-to-madinah"><i class="fa fa-check"></i><b>6.2.6</b> Permission to migrate to Madinah</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="seerah.html"><a href="seerah.html#chapter-8"><i class="fa fa-check"></i><b>6.3</b> Chapter 8</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="seerah.html"><a href="seerah.html#the-jews-of-madinah"><i class="fa fa-check"></i><b>6.3.1</b> The Jews of Madinah</a>
+<ul>
+<li class="chapter" data-level="6.3.1.1" data-path="seerah.html"><a href="seerah.html#religious-affairs-of-the-jews"><i class="fa fa-check"></i><b>6.3.1.1</b> Religious affairs of the Jews</a></li>
+<li class="chapter" data-level="6.3.1.2" data-path="seerah.html"><a href="seerah.html#finances"><i class="fa fa-check"></i><b>6.3.1.2</b> Finances</a></li>
+<li class="chapter" data-level="6.3.1.3" data-path="seerah.html"><a href="seerah.html#religious-and-cultural-conditions"><i class="fa fa-check"></i><b>6.3.1.3</b> Religious and cultural conditions</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3.2" data-path="seerah.html"><a href="seerah.html#the-aws-and-the-khazraj"><i class="fa fa-check"></i><b>6.3.2</b> The Aws and the Khazraj</a></li>
+<li class="chapter" data-level="6.3.3" data-path="seerah.html"><a href="seerah.html#physical-and-geographical-conditions"><i class="fa fa-check"></i><b>6.3.3</b> Physical and geographical conditions</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a><ul>
+<li class="chapter" data-level="A" data-path="sarf-charts.html"><a href="sarf-charts.html"><i class="fa fa-check"></i><b>A</b> sarf charts</a>
+<ul>
 <li class="chapter" data-level="A.1" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف"><i class="fa fa-check"></i><b>A.1</b> فعل ماضي معروف</a></li>
 <li class="chapter" data-level="A.2" data-path="sarf-charts.html"><a href="sarf-charts.html#فعل-ماضي-معروف-1"><i class="fa fa-check"></i><b>A.2</b> فعل ماضي معروف</a></li>
 </ul></li>
@@ -153,16 +303,16 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="history" class="section level1">
+<div id="history" class="section level1" number="5">
 <h1><span class="header-section-number">Section 5</span> التاريخ</h1>
-<div id="أبو-بكر" class="section level2">
+<div id="أبو-بكر" class="section level2" number="5.1">
 <h2><span class="header-section-number">5.1</span> أبو بكرؓ</h2>
 <p>The Khalifa of Abu Bakrؓ was perhaps the most fragile of times for the Ummah after the prophet ﷺ passed away. This is due to the combination of a tense political climate and the two major superpowers, the Byzantines and the Sassanids, in close locale to the Muslims. However, through the genius of Abu Bakrؓ, the Muslims survived and turned from a weak, emerging nation to the greatest empire the world has ever seen.</p>
-<div id="election-of-the-khilafa" class="section level3">
+<div id="election-of-the-khilafa" class="section level3" number="5.1.1">
 <h3><span class="header-section-number">5.1.1</span> Election of the Khilafa</h3>
 <p>After Rasulullah ﷺ passed away, the <em>ansar</em> and the <em>muhajirun</em> gather at the courtyard of <em>Banu Sa’idah</em> to elect a leader for the Muslims. The <em>ansar</em> wanted to nominate Sa’ad bin Ubadahؓ, who was the leader of the <em>khazraj</em> tribe. Abu Bakr mentions the hadith that leadership is for the Quraysh. Umar ibn al-Khattabؓ nominates Abu Bakrؓ. There is consensus in the gathering and Abu Bakrؓ becomes the first Khalifa.</p>
 </div>
-<div id="the-apostates" class="section level3">
+<div id="the-apostates" class="section level3" number="5.1.2">
 <h3><span class="header-section-number">5.1.2</span> The apostates</h3>
 <blockquote>
 <p><strong>ردَّ</strong> apostasy<br />
@@ -176,7 +326,7 @@
 </ol>
 <p>Abu Bakrؓ was firm in his stance to fight all three groups. Some of these groups of people decided to not only apostatize, but also make the Muslims their enemy out of desire to control Medina or obtaining whatever wealth the Muslims had. Those in the third group, however, wanted to only be free of their financial responsibility as Muslims. Umarؓ was of the opinion that the Muslims should be lenient and not fight those in the third group. Abu Bakrؓ grabbed him by the beard and said, “Are you courageous in <em>jahil</em> but a coward in Islam?” This highlights an important principle in Aqeedah. Every tenet of Islam is important. Any one tenet cannot be rejected.</p>
 </div>
-<div id="early-battles" class="section level3">
+<div id="early-battles" class="section level3" number="5.1.3">
 <h3><span class="header-section-number">5.1.3</span> Early Battles</h3>
 <p>There are three basic moves Abu Bakrؓ makes:</p>
 <ul>
@@ -184,7 +334,7 @@
 <li>Hide the women and children of Medina in a nearby mountain fort while the men prepare for battle</li>
 <li>Send messages to all tribes that are still Muslim to fight for the Muslims</li>
 </ul>
-<div id="the-byzantines" class="section level4">
+<div id="the-byzantines" class="section level4" number="5.1.3.1">
 <h4><span class="header-section-number">5.1.3.1</span> The Byzantines</h4>
 <p>The apostasy of nearby tribes posed a severe risk to the young Muslim Ummah, but they were not the only challenge. The Muslims were involved with skirmishes with the Romans in the nearby Byzantine empire in the last few years of Rasulullah’s ﷺ life, and once they knew he passed away they became a serious threat.</p>
 <p>To understand the military situation of the Muslims during the time of Abu Bakrؓ, we must first review some battles that occurred during the time of Rasulullah ﷺ between the Muslims and the Byzantines.</p>
@@ -202,16 +352,16 @@ Figure 5.1: location of battles against Byzantines
 <p>And thus we come to the situation of Abu Bakrؓ. He has with him an army built by the instruction of Rasulullah ﷺ. He decides to send the army with no time to spare, against the wishes of Umarؓ. From the perspective of the Byzantines, they know that the prophet of the Muslims ﷺ has passed away, yet they see a massive army approaching under Usamah bin Zainؓ. They believe this is an indication of strength from the Muslims. Typically, when a leader is no longer present, a nation will either immediately fall into disarray or will find strength through another leader. In either case, the time immediately following the loss of a leader is often one of weakness, especially for a new nation. So if a nation that just lost its prophet has the ability to send out a massive army the next week, they must possess significant strength and <em>hijaz</em> must still be united under Islam, or so the Romans are thinking. They do not have the time to entertain the alternative possibility, i.e. that <em>hijaz</em> is in disarray and the Muslims do not have much military might beyond the army of Usamahؓ, since to do so poses a risk of significant loss and the hedonistic Romans would not accept such a risk.</p>
 <p>Had the Byzantines realized the betrayal by apostates in <em>hijaz</em>, no doubt they could have supported the opposing factions, instilled strife, and attempted to take advantage of the situation and ultimately circumventing Usamah’s army. Instead, they fought defensively, while Usamah’s army could fight offensively, amassing a large amount of wealth through the expedition and returning to Medina triumphant.</p>
 </div>
-<div id="battle-for-medina" class="section level4">
+<div id="battle-for-medina" class="section level4" number="5.1.3.2">
 <h4><span class="header-section-number">5.1.3.2</span> Battle for Medina</h4>
 <p>Meanwhile, in Medina Abu Bakr ordered the women and children to hide while the men picked up arms and hid in the Masjid and guards were stationed on the outskirts to repel attacks. In other words, the Muslims were prepared for a defensive battle in the city. Again, taking the perspective of the rebelling tribes, they believe that Medina is an easy territory for the taking. They expect a lack of unity and failing militia, but are instead met with preparedness and might.</p>
 </div>
-<div id="skirmishes-throughout-hijaz" class="section level4">
+<div id="skirmishes-throughout-hijaz" class="section level4" number="5.1.3.3">
 <h4><span class="header-section-number">5.1.3.3</span> Skirmishes throughout <em>hijaz</em></h4>
 </div>
 </div>
 </div>
-<div id="عمر" class="section level2">
+<div id="عمر" class="section level2" number="5.2">
 <h2><span class="header-section-number">5.2</span> عمرؓ</h2>
 
 </div>
@@ -222,11 +372,10 @@ Figure 5.1: location of battles against Byzantines
         </div>
       </div>
 <a href="aqeedah.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="seerah.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -267,7 +416,7 @@ gitbook.start({
 },
 "download": ["https://github.com/yoyomanzoor/takrar/raw/master/14-history.Rmd"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
