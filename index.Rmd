@@ -8,7 +8,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: yoyomanzoor/takrar
+github-repo: yoyomanzoortanwir/takrar
 description: "A collection of notes taken from tanwir classes"
 favicon: images/favicon_io/favicon.ico
 cover-image: images/adli-wahid-Y9bC2h5V9c8-unsplash.jpg
