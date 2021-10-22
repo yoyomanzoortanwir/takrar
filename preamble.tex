@@ -1,18 +1,38 @@
 \usepackage{booktabs}
 \usepackage{amsthm}
-\usepackage{cancel}
+% \usepackage{cancel}
 % \usepackage{fontspec}
 % \usepackage{polyglossia}
 % \setmainlanguage{english}
 % \setotherlanguage{arabic}
-\newfontfamily\arabicfont[Script = Arabic]{Amiri Quran} % Replace 'Simplified Arabic' with a font from your system
-\usepackage{arabtex}
-\usepackage{utf8}
-\usepackage{multirow}
-\makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
+% \usepackage{xeCJK}
+% \setCJKmainfont{Ubuntu Mono}
+% \setmainfont{Ubuntu Mono}
+% \setromanfont{Ubuntu Mono}
+% \setmonofont{Ubuntu Mono}
+% \newfontfamily\arabicfont[Script = Arabic]{Amiri Quran} % Replace 'Simplified Arabic' with a font from your system
+% \usepackage{arabtex}
+% \usepackage{utf8}
+% \usepackage{multirow}
+% \makeatletter
+% \def\thm@space@setup{%
+%   \thm@preskip=8pt plus 2pt minus 4pt
+%   \thm@postskip=\thm@preskip
+% }
+% \makeatother
+% \setcode{utf8}
+% \usepackage{fontenc}
+% \usepackage{arabxetex}
+% \usepackage{bidi}%has to be last package to be load
+
+\AtEndPreamble{%
+  \@ifpackageloaded{color}{}{%
+    \@ifpackageloaded{xcolor}{}{\RequirePackage{xcolor}}}%
 }
-\makeatother
-\setcode{utf8}
+\usepackage{fontenc}
+\usepackage{arabxetex}
+\usepackage{bidi}%has to be last package to be load
+\newfontfamily\arabicfont[Script=Arabic]{Amiri Quran}
+\newenvironment{Farsi}
+% {\begin{RTL}}
+% {\end{RTL}}
